@@ -1,4 +1,4 @@
-# Participating User Groups
+# 2017 Participating User Groups
 
 Please add your group below and keep the format and information as consistent as possible with others.
 
