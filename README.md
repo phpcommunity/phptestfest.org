@@ -12,3 +12,6 @@ event and to get others involved in
 [writing phpt tests](http://qa.php.net/write-test.php). The submissions will
 then be reviewed by members of php.net before getting included in the official
 test suite.
+
+# Resources
+ - [2017 Participating User Groups](docs/2017-participating-groups.md)
