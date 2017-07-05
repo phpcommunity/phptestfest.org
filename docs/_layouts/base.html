@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<!--
+    Editorial by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        {% assign collection = site.collections | where: "label", page.collection | first %}
+        <title>PHP TestFest{% if collection %} &raquo; {{ collection.name }}{% endif %}{% if page.title %} &raquo; {{ page.title }}{% endif %}</title>
+
+        {% if page.summary %}<meta name="description" content="{{ page.summary | markdownify | strip_html | strip_newlines }}">{% endif %}
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/assets/favicon/manifest.json">
+        <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#e15188">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="alternate" type="application/atom+xml" title="PHP TestFest Tutorials" href="/feed.xml">
+
+        <!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css"><![endif]-->
+        <!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css"><![endif]-->
+    </head>
+    <body>
+
+        <div id="wrapper">
+
+            <div id="main">
+                <div class="inner">
+
+                    <header id="header">
+                        <a href="/" class="logo"><strong>PHP TestFest</strong> Sep - Nov, 2017</a>
+                        <ul class="icons">
+                        {% for item in site.data.contact.social %}
+                        {% assign link = item[1] %}
+                            <li><a href="{{ link.url }}" class="icon {{ link.icon }}"><span class="label">{{ link.name }}</span></a></li>
+                        {% endfor %}
+                        </ul>
+                    </header>
+
+{{ content }}
+
+                </div>
+            </div>
+
+{% include sidebar.html %}
+
+        </div>
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/skel.min.js"></script>
+        <script src="/assets/js/util.js"></script>
+        <!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="/assets/js/main.js"></script>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-102161566-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+
+    </body>
+</html>

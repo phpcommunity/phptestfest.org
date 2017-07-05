@@ -1,0 +1,125 @@
+///
+/// Editorial by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Image */
+
+    .image {
+        border-radius: _size(border-radius);
+        border: 0;
+        display: inline-block;
+        position: relative;
+
+        img {
+            border-radius: _size(border-radius);
+            display: block;
+        }
+
+        svg {
+            display: block;
+        }
+
+        &.left,
+        &.right {
+            max-width: 40%;
+
+            img, svg {
+                width: 100%;
+            }
+        }
+
+        &.left {
+            float: left;
+            padding: 0 1.5em 1em 0;
+            top: 0.25em;
+        }
+
+        &.right {
+            float: right;
+            padding: 0 0 1em 1.5em;
+            top: 0.25em;
+        }
+
+        &.fit {
+            display: block;
+            margin: 0 0 _size(element-margin) 0;
+            width: 100%;
+
+            img, svg {
+                width: 100%;
+            }
+        }
+
+        &.main {
+            display: block;
+            margin: 0 0 (_size(element-margin) * 1.5) 0;
+            width: 100%;
+            height: 416px;
+            overflow: hidden;
+            position: relative;
+
+            img {
+                position: absolute;
+                left: -1000%;
+                right: -1000%;
+                top: -1000%;
+                bottom: -1000%;
+                margin: auto;
+                max-width: 100%;
+            }
+
+            @include breakpoint(xlarge-to-max) {
+                height: 500px;
+
+                img {
+                    max-width: none;
+                    width: 100%;
+                }
+            }
+
+            @include breakpoint(medium) {
+                height: 380px;
+            }
+
+            @include breakpoint(small) {
+                height: 280px;
+            }
+
+            @include breakpoint(xsmall) {
+                height: 200px;
+            }
+        }
+
+        & + .credit {
+            display: block;
+            margin: 0;
+            padding: 0;
+            margin-top: (_size(element-margin) * -1.5);
+            margin-bottom: (_size(element-margin) * 1.5);
+            width: 100%;
+            text-align: right;
+            font-size: 0.8em;
+
+            p {
+                margin: 0;
+                padding: 0;
+                line-height: 1em;
+            }
+        }
+    }
+
+    a.image {
+        overflow: hidden;
+
+        img, svg {
+            @include vendor('transition', 'transform #{_duration(transition)} ease');
+        }
+
+        &:hover {
+            img, svg {
+                @include vendor('transform', 'scale(1.075)');
+            }
+        }
+    }

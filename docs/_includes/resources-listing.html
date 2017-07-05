@@ -1,0 +1,18 @@
+<div class="resources-listing">
+
+    {% assign resources = include.resources | sort: 'title' %}
+    {% for resource in resources %}
+    <div class="resource">
+        <div class="box">
+            <h3><a href="{{ resource.url }}">{{ resource.title | smartify }}</a></h3>
+            <p class="publication-details">
+                {% if resource.author %}<span class="byline">by {{ resource.author | smartify }}</span>{% endif %}{% if resource.author and resource.publisher %}, {% endif %}
+                {% if resource.publisher %}<span class="publisher">{{ resource.publisher }}</span>{% endif %}
+                {% if resource.date %}<span class="publication-date">{{ resource.date }}</span>{% endif %}
+            </p>
+            {% if resource.description %}{{ resource.description | markdownify }}{% endif %}
+        </div>
+    </div>
+    {% endfor %}
+
+</div>

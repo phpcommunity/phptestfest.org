@@ -1,0 +1,44 @@
+.groups-listing {
+    display: flex;
+    flex-flow: row wrap;
+
+    .group {
+        width: 33%;
+        padding: 0 10px;
+
+        h3 {
+            margin: 0;
+        }
+
+        .location, .icons {
+            margin: 0 0 (_size(element-margin) * 0.25) 0;
+        }
+
+        @include breakpoint(large-to-max) {
+            &:nth-child(3n+0) {
+                padding-right: 0;
+            }
+
+            &:nth-child(3n+1) {
+                padding-left: 0;
+            }
+        }
+
+        @include breakpoint(small-to-large) {
+            width: 50%;
+
+            &:nth-child(2n+0) {
+                padding-right: 0;
+            }
+
+            &:nth-child(2n+1) {
+                padding-left: 0;
+            }
+        }
+
+        @include breakpoint(small) {
+            width: 100%;
+            padding: 0;
+        }
+    }
+}

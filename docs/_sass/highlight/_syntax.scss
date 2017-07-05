@@ -1,0 +1,39 @@
+pre.highlight code, div.highlight table td.code pre {
+    @import 'highlight/solarizedlight';
+}
+
+div.highlight table {
+    @include code;
+
+    table-layout: fixed;
+    margin: 0 0 2em 0;
+
+    pre {
+        margin: 0;
+    }
+
+    tr {
+        border: 0;
+        background: none;
+    }
+
+    td {
+        padding: 0 0.75em;
+    }
+
+    td.gutter {
+        background-color: _palette(bg-alt);
+        border-right: dotted 1px _palette(border);
+        width: 3em;
+    }
+
+    td.code {
+        @include pre;
+        
+        padding: 0;
+
+        pre {
+            @include pre-code;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+---
+layout: page
+title: Tutorials
+permalink: tutorials/index.html
+summary: >
+    From learning to set up your environment and write phpt tests to planning
+    a PHP TestFest event, these tutorials can help you make the most of PHP
+    TestFest.
+---
+
+<p>From learning to set up your environment and write <em>phpt</em> tests to planning a PHP TestFest event, these tutorials can help you make the most of PHP TestFest.</p>
+
+<hr class="major">
+
+{% assign tutorials = site.tutorials | sort: 'date' %}
+
+<section>
+    <div class="posts">
+        {% for tutorial in tutorials %}
+        <article>
+            {% if tutorial.image.url %}
+            <a href="{{ tutorial.url }}" class="image">
+                <img class="home" src="{{ tutorial.image.url }}" alt="{{ tutorial.image.alt }}">
+            </a>
+            {% else %}
+            <a href="{{ tutorial.url }}" class="image">
+                <img src="/theme-example/images/pic01.jpg" alt="">
+            </a>
+            {% endif %}
+            <h3>{{ tutorial.title | smartify }}</h3>
+            {% if tutorial.summary %}{{ tutorial.summary | markdownify }}{% else %}{{ tutorial.content | strip_html | truncatewords:25 | markdownify }}{% endif %}
+            <ul class="actions">
+                <li><a href="{{ tutorial.url }}" class="button">More</a></li>
+            </ul>
+        </article>
+        {% endfor %}
+    </div>
+</section>

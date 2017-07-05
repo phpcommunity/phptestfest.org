@@ -1,0 +1,80 @@
+#
+# PHP TestFest 2017: Participating Groups
+#
+# When adding or modifying group details, please keep groups arranged in
+# alphabetical order by the "name" property.
+#
+
+- name: AtlantaPHP
+  location: Atlanta, GA, USA
+  website: http://atlantaphp.org
+  meetup: http://www.meetup.com/atlantaphp
+  twitter: https://twitter.com/AtlantaPHP
+  contacts:
+    - name: Chris Spruck
+      email: chris@atlantaphp.org
+
+- name: Kansas City PHP UG
+  location: Kansas City, MO, USA
+  website: http://kcpug.org/
+  meetup: https://www.meetup.com/kcphpug/
+  twitter: https://twitter.com/kcphpug
+  contacts:
+    - name: Dan Holmes
+      email: dan.holmes@gmail.com
+    - name: John Kary
+      email: john at john kary dot net
+    - name: Eric Poe
+      email: eric.poe@gmail.com
+
+- name: Nashville PHP
+  location: Nashville, TN, USA
+  website: http://nashvillephp.org
+  meetup: https://www.meetup.com/nashvillephp/
+  twitter: https://twitter.com/nashvillephp/
+  contacts:
+    - name: Ben Ramsey
+      email: organizers@nashvillephp.org
+    - name: Marcus Fulbright
+      email: organizers@nashvillephp.org
+    - name: Matt Trask
+      email: organizers@nashvillephp.org
+    - name: Rachel Werner
+      email: organizers@nashvillephp.org
+
+- name: PHPDublin
+  location: Dublin, Ireland
+  website: http://phpdublin.com/
+  meetup: https://www.meetup.com/PHP-Dublin/
+  twitter: https://twitter.com/phpdublin
+  contacts:
+    - name: Barry O'Sullivan
+      email: barry@tercet.io
+    - name: Bruno Ricardo Siqueira
+      email: brunoric@gmail.com
+    - name: Joao Paulo V Martins
+      email: jp.joao@gmail.com
+    - name: Ken Guest
+      email: kguest@php.net
+    - name: Michael Flanagan
+      email: michael@flanagan.ie
+
+- name: PHPMiNDS
+  location: Nottingham, UK
+  website: https://phpminds.org/
+  meetup: https://www.meetup.com/phpminds
+  twitter: https://twitter.com/phpminds
+  contacts:
+    - name: Adoni Pavlakis
+      email: adoni@phpminds.org
+    - name: Shaun Hare
+      email: shaun@phpminds.org
+
+- name: PHPSP
+  location: São Paulo, Brazil
+  website: http://phpsp.org.br/
+  meetup: https://www.meetup.com/php-sp/
+  twitter: https://twitter.com/phpsp
+  contacts:
+    - name: Rogerio Prado de Jesus
+      email: rogerio@phpsp.org.br
