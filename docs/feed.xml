@@ -1,0 +1,44 @@
+---
+# Include front-matter to ensure Jekyll processes this file.
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>PHP TestFest</title>
+    <subtitle>Improving code coverage of the PHP language</subtitle>
+    <id>https://phptestfest.org/</id>
+    <updated>{{ site.time | date: '%FT%T%z' }}</updated>
+    <icon>https://phptestfest.org/assets/favicon/favicon-32x32.png</icon>
+
+    <link rel="self" href="https://phptestfest.org/feed.xml"/>
+    <link rel="alternate" type="text/html" href="https://phptestfest.org/"/>
+
+    <category term="php"/>
+    <category term="testing"/>
+
+    {% assign tutorials = site.tutorials | sort: 'date' %}
+    {% for tutorial in tutorials %}
+    <entry>
+        <title type="html">{{ tutorial.title | xml_escape }}</title>
+        <link href="https://phptestfest.org{{ tutorial.url }}"/>
+        <id>https://phptestfest.org{{ tutorial.url }}</id>
+        <published>{{ tutorial.date | date_to_xmlschema }}</published>
+        <updated>{% if tutorial.updated %}{{ tutorial.updated | date_to_xmlschema }}{% else %}{{ tutorial.date | date_to_xmlschema }}{% endif %}</updated>
+        {% if tutorial.author.name %}
+        <author>
+            <name>{{ tutorial.author.name | xml_escape }}</name>
+            {% if tutorial.author.website %}<uri>{{ tutorial.author.website }}</uri>{% endif %}
+        </author>
+        {% endif %}
+        {% if tutorial.summary %}
+        <summary type="html">
+            {{ tutorial.summary | markdownify | xml_escape }}
+        </summary>
+        {% endif %}
+        <content type="html">
+            {{ tutorial.content | xml_escape }}
+        </content>
+    </entry>
+    {% endfor %}
+
+</feed>

@@ -1,0 +1,44 @@
+///
+/// Editorial by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Footer */
+
+    #footer {
+        .copyright, .copyright-logo, .license p, .attribution {
+            margin: 0 0 1em 0;
+            color: _palette(fg-light);
+            font-size: 0.9em;
+            line-height: 1.2em;
+
+            a {
+                color: inherit;
+            }
+        }
+
+        .copyright {
+            padding: 0.5em 0;
+            margin-bottom: 2em;
+        }
+
+        .license {
+            clear: both;
+        }
+
+        .copyright-logo {
+            float: left;
+            margin: 0 1em 0 0;
+
+            a {
+                border-bottom: 0;
+            }
+
+            svg {
+                fill: _palette(accent);
+                height: 2.5em;
+                width: 2.5em;
+            }
+        }
+    }

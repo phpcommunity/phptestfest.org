@@ -1,0 +1,11 @@
+.wobble-message {
+    svg {
+        g#Message {
+            font-family: _font(family-heading);
+            font-weight: _font(weight-heading);
+            font-size: 52px;
+            line-height: 1em;
+            color: white;
+        }
+    }
+}

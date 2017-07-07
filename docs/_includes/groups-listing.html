@@ -1,0 +1,24 @@
+<div class="groups-listing">
+
+    {% assign groups = include.groups | sort: 'name' %}
+    {% for group in groups %}
+    <div class="group">
+        <div class="box">
+            <h3>{{ group.name | smartify }}</h3>
+            {% if group.location %}<p class="location">{{ group.location | smartify }}</p>{% endif %}
+            <ul class="icons">
+                {% if group.website %}<li><a href="{{ group.website }}" class="icon fa-globe" title="Visit {{ group.name }}'s website"><span class="label">Visit {{ group.name }}'s website</span></a></li>{% endif %}
+                {% if group.meetup %}<li><a href="{{ group.meetup }}" class="icon fa-meetup" title="RSVP to {{ group.name }}'s events on Meetup"><span class="label">RSVP to {{ group.name }}'s events on Meetup</span></a></li>{% endif %}
+                {% if group.twitter %}<li><a href="{{ group.twitter }}" class="icon fa-twitter" title="Follow {{ group.name }} on Twitter"><span class="label">Follow {{ group.name }} on Twitter</span></a></li>{% endif %}
+            </ul>
+            <h4>Contacts</h4>
+            <ul class="alt">
+            {% for contact in group.contacts %}
+                <li>{{ contact.name | smartify }}{% if contact.email %} <a href="mailto:{{ contact.email }}" class="icon fa-envelope-o" title="Send email to {{ contact.name }}"><span class="label">Send email to {{ contact.name }}</span></a>{% endif %}</li>
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+    {% endfor %}
+
+</div>

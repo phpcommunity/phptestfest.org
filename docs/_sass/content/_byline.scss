@@ -1,0 +1,17 @@
+.icons {
+    &.byline {
+        margin: -2em 0 3em 0 !important;
+
+        @include breakpoint(small) {
+            margin: -1.5em 0 3em 0 !important;
+        }
+
+        li {
+            padding: 0 0.25em 0 0;
+
+            a.icon {
+                font-size: 0.8em;
+            }
+        }
+    }
+}

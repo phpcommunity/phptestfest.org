@@ -1,0 +1,33 @@
+#
+# PHP TestFest Contact Information
+#
+
+email: testfest@phpcommunity.org
+
+social:
+
+  google:
+    name: Google Group
+    icon: fa-comments-o
+    url: https://groups.google.com/a/phpcommunity.org/group/testfest/
+
+  irc:
+    name: IRC
+    icon: fa-hashtag
+    url: https://kiwiirc.com/client/irc.freenode.net#phptestfest
+    channel: phptestfest
+
+  github:
+    name: GitHub
+    icon: fa-github
+    url: https://github.com/phpcommunity/phptestfest.org
+
+  twitter:
+    name: Twitter
+    icon: fa-twitter
+    url: https://twitter.com/phptestfest
+
+  flickr:
+    name: Flickr
+    icon: fa-flickr
+    url: https://www.flickr.com/search/?tags=phptestfest&safe_search=1

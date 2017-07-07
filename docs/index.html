@@ -1,2 +1,90 @@
-<h1>phptestfest.org</h1>
-<p>Hello, world!</p>
+---
+layout: base
+summary: >
+    PHP TestFest takes place from September through November 2017. Join us as we
+    improve code coverage of the PHP programming language.
+---
+
+<section id="banner">
+    <div class="content">
+        <header>
+            <h1>Welcome to<br>PHP TestFest</h1>
+            <p>Improving code coverage of the PHP language</p>
+        </header>
+        <p>PHP TestFest aims to improve the <a href="http://gcov.php.net/">code coverage</a> of the test suite for the <a href="https://php.net">PHP programming language</a>. Groups from around the world are encouraged to participate from September through November, meeting physically or virtually, learning how to write and contribute <em>phpt</em> tests. We will award prizes (to be announced) to participating individuals and groups in early December.</p>
+        <ul class="actions">
+            <li><a href="/start/" class="button big">Get Started</a></li>
+        </ul>
+    </div>
+    <span class="image object">
+        <img src="/images/wobble-brigade.png" alt="TestFest Wobble Brigade">
+    </span>
+</section>
+
+<section>
+    <header class="major">
+        <h2>Get involved</h2>
+    </header>
+    <div class="features">
+        <article>
+            <span class="icon fa-users"></span>
+            <div class="content">
+                <h3>Participating groups</h3>
+                <p>Find a local group participating in PHP TestFest, or add your group to the list.</p>
+                <p><a href="/groups/{{ site.time | date: '%Y' }}" class="button">Find a group</a></p>
+            </div>
+        </article>
+        <article>
+            <span class="icon fa-map-o"></span>
+            <div class="content">
+                <h3>Lead an event</h3>
+                <p>Interested in leading your group to participate in PHP TestFest? Learn how to organize an event.</p>
+                <p><a href="/lead/" class="button">Organize a TestFest</a></p>
+            </div>
+        </article>
+        <article>
+            <span class="icon fa-graduation-cap"></span>
+            <div class="content">
+                <h3>Be a mentor</h3>
+                <p>Participating groups need mentors to run successful PHP TestFest events. Find out how you can help and add your name to the list.</p>
+                <p><a href="/mentors/" class="button">Mentor Others</a></p>
+            </div>
+        </article>
+        <article>
+            <span class="icon fa-code"></span>
+            <div class="content">
+                <h3>Learn to write phpt tests</h3>
+                <p>Become a core PHP language contributor by writing <em>phpt</em> tests. These tutorials show you how.</p>
+                <p><a href="/tutorials/" class="button">Follow the Tutorials</a></p>
+            </div>
+        </article>
+    </div>
+</section>
+
+{% assign tutorials = site.tutorials | sort: 'date' %}
+
+<section>
+    <header class="major">
+        <h2>Recent Tutorials</h2>
+    </header>
+    <div class="posts">
+        {% for tutorial in tutorials limit:6 %}
+        <article>
+            {% if tutorial.image.url %}
+            <a href="{{ tutorial.url }}" class="image">
+                <img class="home" src="{{ tutorial.image.url }}" alt="{{ tutorial.image.alt }}">
+            </a>
+            {% else %}
+            <a href="{{ tutorial.url }}" class="image">
+                <img src="/theme-example/images/pic01.jpg" alt="">
+            </a>
+            {% endif %}
+            <h3>{{ tutorial.title | smartify }}</h3>
+            {% if tutorial.summary %}{{ tutorial.summary | markdownify }}{% else %}{{ tutorial.content | strip_html | truncatewords:25 | markdownify }}{% endif %}
+            <ul class="actions">
+                <li><a href="{{ tutorial.url }}" class="button">More</a></li>
+            </ul>
+        </article>
+        {% endfor %}
+    </div>
+</section>

@@ -1,0 +1,30 @@
+---
+layout: base
+---
+
+{% assign collection = site.collections | where: "label", page.collection | first %}
+
+<section>
+    <header class="main">
+        {% if collection %}<p class="collection-heading">{{ collection.name }}</p>{% endif %}
+        <h1>{{ page.title }}</h1>
+        {% if page.author.name %}
+        <ul class="icons byline">
+            <li>by {{ page.author.name }}</li>
+            {% if page.author.website %}<li><a href="{{ page.author.website }}" class="icon fa-globe" title="Visit {{ page.author.name }}'s website"><span class="label">Visit {{ page.author.name }}'s website</span></a></li>{% endif %}
+            {% if page.author.twitter %}<li><a href="{{ page.author.twitter }}" class="icon fa-twitter" title="Follow {{ page.author.name }} on Twitter"><span class="label">Follow {{ page.author.name }} on Twitter</span></a></li>{% endif %}
+        </ul>
+        {% endif %}
+    </header>
+
+    {% if page.image.url %}
+        <span class="image main"><img src="{{ page.image.url }}" alt="{{ page.image.alt }}" title="{{ page.image.title }}"></span>
+
+        {% if page.image.credit %}
+            <span class="credit">{{ page.image.credit | markdownify }}</span>
+        {% endif %}
+    {% endif %}
+
+{{ content }}
+
+</section>

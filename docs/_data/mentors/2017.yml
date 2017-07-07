@@ -1,0 +1,17 @@
+#
+# PHP TestFest 2017: Mentors
+#
+
+- name: Ben Ramsey
+  location: Nashville, TN, USA
+  website: https://benramsey.com
+  twitter: https://twitter.com/ramsey
+  email: ben@benramsey.com
+  available:
+    forLocal: true
+    forRemote: false
+    forTravel: false
+  specialties:
+    - Array functions
+    - BC Math
+    - SimpleXML

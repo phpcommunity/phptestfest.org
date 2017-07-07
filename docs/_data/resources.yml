@@ -1,0 +1,22 @@
+#
+# PHP TestFest Resource Links
+#
+
+- title: Creating new test files
+  url: http://qa.php.net/write-test.php
+  # author: Jane Doe
+  publisher: qa.php.net
+  # date: 2017 # e.g. "2017", "July 2017", "7 July 2017"
+  description: >
+    The definitive resource for learning to write _phpt_ tests from the PHP
+    Quality Assurance team.
+
+- title: Writing Tests for PHP Source
+  url: https://speakerdeck.com/sammyk/writing-tests-for-php-source-php-tek-2017
+  author: Sammy Kaye Powers
+  publisher: php[tek] # Technically, not a publisher, but works in this context
+  date: 25 May 2017
+  description: >
+    This isn't a talk about adding tests to your PHP codebase, but adding tests
+    to the PHP language itself. And the best part is, all the tests are written
+    in PHP…

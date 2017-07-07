@@ -1,0 +1,27 @@
+# Collections
+collections:
+  groups:
+    output: true
+    permalink: /:collection/:path/
+    name: Participating Groups
+  mentors:
+    output: true
+    permalink: /:collection/:path/
+    name: Mentors
+  tutorials:
+    output: true
+    permalink: /:collection/:path/
+    name: Tutorials
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: true
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
