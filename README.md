@@ -1,5 +1,9 @@
 # PHP TestFest
 
+[![Software License][badge-license]][license]
+[![Build Status][badge-build]][build]
+[![Coverage Status][badge-coverage]][coverage]
+
 Are you looking for information on PHP TestFest? Take a look at our website,
 where you can find details on organizing a PHP TestFest event, finding a group
 to participate with, being a mentor, and more: <https://phptestfest.org>.
@@ -10,7 +14,17 @@ Keep reading…
 
 ## Tools
 
-TBD
+### PHP TestFest Console Application
+
+One of the tools we're building is a console application that will make it
+easier to get up and running quickly with PHP TestFest and writing phpt
+tests. Give it a try. From a command prompt, type:
+
+``` bash
+composer create-project phpc/testfest
+cd testfest/
+./bin/testfest
+```
 
 
 ## Website
@@ -109,6 +123,12 @@ Now, you may preview the site in your web browser at `http://localhost:4000`.
 
 PHP TestFest website and tools are copyright ©
 [PHP Community Foundation](https://phpcommunity.org) and are licensed under the
-Apache License, Version 2.0. See
-[LICENSE](https://github.com/phpcommunity/phptestfest.org/blob/master/LICENSE)
-for more details.
+Apache License, Version 2.0. See [LICENSE][license] for more details.
+
+
+[badge-license]: https://img.shields.io/github/license/phpcommunity/phptestfest.org.svg?style=flat-square
+[badge-build]: https://img.shields.io/travis/phpcommunity/phptestfest.org/master.svg?style=flat-square
+[badge-coverage]: https://img.shields.io/coveralls/phpcommunity/phptestfest.org/master.svg?style=flat-square
+[license]: https://github.com/phpcommunity/phptestfest.org/blob/master/LICENSE
+[build]: https://travis-ci.org/phpcommunity/phptestfest.org
+[coverage]: https://coveralls.io/r/phpcommunity/phptestfest.org?branch=master
