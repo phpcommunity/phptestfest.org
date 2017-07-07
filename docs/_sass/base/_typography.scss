@@ -9,20 +9,16 @@
     body, input, select, textarea {
         color: _palette(fg);
         font-family: _font(family);
-        font-size: 13pt;
+        font-size: 14pt;
         font-weight: _font(weight);
         line-height: 1.65;
 
         @include breakpoint(xlarge) {
-            font-size: 11pt;
+            font-size: 12pt;
         }
 
-        @include breakpoint(large) {
-            font-size: 10pt;
-        }
-
-        @include breakpoint(xxsmall) {
-            font-size: 9pt;
+        @include breakpoint(small) {
+            font-size: 13pt;
         }
     }
 

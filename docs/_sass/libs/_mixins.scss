@@ -404,6 +404,10 @@
     font-size: 1em;
     margin: 0 0.25em;
     padding: 0.25em 0.65em;
+
+    @include breakpoint(medium) {
+        font-size: 0.95em;
+    }
 }
 
 @mixin pre() {
@@ -411,6 +415,10 @@
     font-family: _font(family-fixed);
     font-size: 1em;
     margin: 0 0 _size(element-margin) 0;
+
+    @include breakpoint(medium) {
+        font-size: 0.95em;
+    }
 }
 
 @mixin pre-code() {
