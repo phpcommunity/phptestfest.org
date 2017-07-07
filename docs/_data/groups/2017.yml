@@ -36,6 +36,17 @@
     - name: Joe Ferguson
       email: joe at joe ferguson dot me
       
+- name: Milwaukee PHP UG
+  location: Milwaukee, WI, USA
+  website: http://mkepug.org/
+  meetup: https://www.meetup.com/Milwaukee-PHP-Users-Group/
+  twitter: https://twitter.com/mkepug
+  contacts:
+    - name: Joel Clermont
+      email: message through Meetup
+    - name: Jeremy Dee
+      email: message through Meetup
+
 - name: Nashville PHP
   location: Nashville, TN, USA
   website: http://nashvillephp.org
