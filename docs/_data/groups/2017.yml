@@ -78,3 +78,12 @@
   contacts:
     - name: Rogerio Prado de Jesus
       email: rogerio@phpsp.org.br
+      
+- name: PUG Roma
+  location: Roma, Italy
+  website: http://roma.grusp.org/
+  meetup: http://www.meetup.com/it-IT/PUG-Roma/
+  twitter: https://twitter.com/PUG_Roma
+  contacts:
+    - name: Massimiliano Arione
+      email: garakkio@gmail.com
