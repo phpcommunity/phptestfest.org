@@ -20,3 +20,13 @@
     This isn't a talk about adding tests to your PHP codebase, but adding tests
     to the PHP language itself. And the best part is, all the tests are written
     in PHP…
+
+- title: "PHP Internals Book: Testing PHP Source"
+  url: http://www.phpinternalsbook.com/#testing-php-source
+  author: Pauli, Popov, Ferrara, et al.
+  publisher: phpinternalsbook.com
+  description: >
+    In this chapter we'll explore the test suite that covers the internal
+    functionality of PHP. We'll cover everything from running the test suite
+    with PHP's custom black-box testing tool called `run-tests.php` to creating
+    new tests.
