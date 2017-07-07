@@ -1,0 +1,56 @@
+#!/usr/bin/env php
+<?php
+/**
+ * This file is part of the phpc/testfest project
+ *
+ * Copyright 2017 PHP Community Foundation
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+date_default_timezone_set('UTC');
+
+if (PHP_SAPI !== 'cli') {
+    die('testfest should be invoked via the CLI version of PHP, not the ' . PHP_SAPI . ' SAPI' . PHP_EOL);
+}
+
+$files = array(
+    __DIR__ . '/../vendor/autoload.php',
+    __DIR__ . '/../../../autoload.php',
+);
+
+foreach ($files as $file) {
+    if (file_exists($file)) {
+        require $file;
+        define('TESTFEST_COMPOSER_INSTALL', $file);
+        break;
+    }
+}
+
+if (!defined('TESTFEST_COMPOSER_INSTALL')) {
+    die(
+        'You need to set up the project dependencies using Composer.' . PHP_EOL
+        . 'Go to <https://getcomposer.org/> for details on how to install Composer.' . PHP_EOL
+        . 'If you already have Composer, run the following from the project root:' . PHP_EOL
+        . PHP_EOL
+        . '    composer install' . PHP_EOL
+    );
+}
+
+use Phpc\TestFest\Console\Application;
+use Phpc\TestFest\Console\Command;
+
+$application = new Application();
+$application->add(new Command\AboutCommand());
+$application->add(new Command\Phpt\SkeletonCommand());
+$application->run();

@@ -1,0 +1,4 @@
+*.phar
+/vendor/
+composer.lock
+phpunit.xml
