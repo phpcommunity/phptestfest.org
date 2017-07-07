@@ -52,6 +52,31 @@
             }
         }
 
+        @include breakpoint(medium) {
+            &.left,
+            &.right {
+                max-width: 50%;
+            }
+        }
+
+        @include breakpoint(small) {
+            &.left,
+            &.right {
+                max-width: 60%;
+            }
+        }
+
+        @include breakpoint(xsmall) {
+            &.left,
+            &.right {
+                float: none;
+                max-width: 100%;
+                display: block;
+                margin: 0 0 _size(element-margin) 0;
+                width: 100%;
+            }
+        }
+
         &.main {
             display: block;
             margin: 0 0 (_size(element-margin) * 1.5) 0;

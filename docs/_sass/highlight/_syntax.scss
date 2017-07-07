@@ -22,6 +22,14 @@ div.highlight table {
     }
 
     td.gutter {
+        @include pre;
+
+        pre {
+            @include pre-code;
+
+            padding: 1em 0;
+        }
+
         background-color: _palette(bg-alt);
         border-right: dotted 1px _palette(border);
         width: 3em;

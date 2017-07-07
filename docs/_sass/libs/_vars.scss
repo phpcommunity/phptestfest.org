@@ -36,9 +36,9 @@
         bg:                 #ffffff,
         bg-alt:             #f5f6f7,
         bg-code:            transparentize(#e6ebed, 0.85),
-        fg:                 #7f888f,
+        fg:                 darken(#7f888f, 20%),
         fg-bold:            #3d4449,
-        fg-light:           #9fa3a6,
+        fg-light:           darken(#9fa3a6, 20%),
         border:             rgba(210,215,217,0.75),
         border-bg:          transparentize(#e6ebed, 0.75),
         accent:             #e15188
