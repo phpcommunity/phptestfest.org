@@ -27,6 +27,15 @@
     - name: Eric Poe
       email: eric.poe@gmail.com
 
+- name: MemphisPHP
+  location: Memphis, TN, USA
+  website: http://memphisphp.org
+  meetup: https://www.meetup.com/Memphis-PHP-Meetup/
+  twitter: https://twitter.com/memphisphp
+  contacts:
+    - name: Joe Ferguson
+      email: joe at joe ferguson dot me
+      
 - name: Milwaukee PHP UG
   location: Milwaukee, WI, USA
   website: http://mkepug.org/
