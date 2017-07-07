@@ -9,7 +9,7 @@
             <ul class="icons">
                 {% if mentor.website %}<li><a href="{{ mentor.website }}" class="icon fa-globe" title="Visit {{ mentor.name }}'s website"><span class="label">Visit {{ mentor.name }}'s website</span></a></li>{% endif %}
                 {% if mentor.twitter %}<li><a href="{{ mentor.twitter }}" class="icon fa-twitter" title="Follow {{ mentor.name }} on Twitter"><span class="label">Follow {{ mentor.name }} on Twitter</span></a></li>{% endif %}
-                {% if mentor.email %}<li><a href="{{ mentor.email }}" class="icon fa-envelope-o" title="Send email to {{ mentor.name }}"><span class="label">Send email to {{ mentor.name }}</span></a></li>{% endif %}
+                {% if mentor.email %}<li><a href="mailto:{{ mentor.email }}" class="icon fa-envelope-o" title="Send email to {{ mentor.name }}"><span class="label">Send email to {{ mentor.name }}</span></a></li>{% endif %}
             </ul>
 
             {% if mentor.available %}
