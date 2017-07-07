@@ -17,12 +17,8 @@
             font-size: 12pt;
         }
 
-        @include breakpoint(large) {
-            font-size: 12pt;
-        }
-
-        @include breakpoint(xxsmall) {
-            font-size: 11pt;
+        @include breakpoint(small) {
+            font-size: 13pt;
         }
     }
 
