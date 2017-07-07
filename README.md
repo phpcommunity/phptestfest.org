@@ -22,9 +22,9 @@ master, any changes to `docs/` are immediately deployed.
 
 All content may be written in GitHub-flavored Markdown and HTML. For some
 examples of how you may use the site theme, take a look at
-[Generic](https://phptestfest.org/theme-example/generic/)
+[Generic](https://phptestfest.org/theme-example/generic.html)
 (`docs/theme-example/generic.md`) and
-[Elements](https://phptestfest.org/theme-example/elements/)
+[Elements](https://phptestfest.org/theme-example/elements.html)
 (`docs/theme-example/elements.md`).
 
 There are a few main sections of the website where contributions are greatly
