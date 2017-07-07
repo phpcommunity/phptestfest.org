@@ -21,7 +21,7 @@ easier to get up and running quickly with PHP TestFest and writing phpt
 tests. Give it a try. From a command prompt, type:
 
 ``` bash
-composer create-project phpc/testfest
+composer create-project --stability dev phpc/testfest
 cd testfest/
 ./bin/testfest
 ```
