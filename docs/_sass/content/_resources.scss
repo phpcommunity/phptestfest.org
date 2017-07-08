@@ -1,10 +1,17 @@
 .resources-listing {
     display: flex;
     flex-flow: row wrap;
+    align-items: stretch;
 
     .resource {
         width: 33%;
         padding: 0 10px;
+        margin-bottom: 2em;
+
+        .box {
+            height: 100%;
+            margin-bottom: 0;
+        }
 
         h3 {
             margin: 0;
@@ -31,7 +38,7 @@
             }
         }
 
-        @include breakpoint(large-to-max) {
+        @include breakpoint(medium-to-max) {
             &:nth-child(3n+0) {
                 padding-right: 0;
             }
@@ -41,7 +48,7 @@
             }
         }
 
-        @include breakpoint(small-to-large) {
+        @include breakpoint(small-to-medium) {
             width: 50%;
 
             &:nth-child(2n+0) {
