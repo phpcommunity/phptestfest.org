@@ -17,9 +17,9 @@
                     <hr>
                     <h4>I&rsquo;m available for…</h4>
                     <ul class="icons">
-                        {% if mentor.available.forLocal %}<li><a href="#" class="icon fa-car" title="Local mentoring"><span class="label">Local mentoring</span></a></li>{% endif %}
-                        {% if mentor.available.forRemote %}<li><a href="#" class="icon fa-desktop" title="Remote mentoring"><span class="label">Remote mentoring</span></a></li>{% endif %}
-                        {% if mentor.available.forTravel %}<li><a href="#" class="icon fa-plane" title="Travel mentoring"><span class="label">Travel mentoring</span></a></li>{% endif %}
+                        {% if mentor.available.forLocal %}<li><span class="icon fa-car" title="Local mentoring"><span class="label">Local mentoring</span></span></li>{% endif %}
+                        {% if mentor.available.forRemote %}<li><span class="icon fa-desktop" title="Online (remote) mentoring"><span class="label">Online (remote) mentoring</span></span></li>{% endif %}
+                        {% if mentor.available.forTravel %}<li><span class="icon fa-plane" title="Travel mentoring"><span class="label">Travel mentoring</span></span></li>{% endif %}
                     </ul>
                     <hr>
                 </div>
