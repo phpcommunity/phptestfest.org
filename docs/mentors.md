@@ -6,7 +6,7 @@ summary: >
     In the very near future, this page will explain what it means to be a PHP TestFest mentor. Check back soon!
 ---
 
-{% include wobble-message.html message="Sign up to mentor a group!" class="right" %}
+{% include wooble-message.html message="Sign up to mentor a group!" class="right" %}
 
 In the very near future, this page will explain what it means to be a PHP TestFest mentor. Check back soon!
 

@@ -6,7 +6,7 @@ summary: >
     Don't worry! Content for this page is coming very soon! You'll soon learn how to organize a PHP TestFest event for your area.
 ---
 
-{% include wobble-message.html message="Organize an event!" class="right" %}
+{% include wooble-message.html message="Organize an event!" class="right" %}
 
 Don't worry! Content for this page is coming very soon! You'll soon learn how to organize a PHP TestFest event for your area.
 

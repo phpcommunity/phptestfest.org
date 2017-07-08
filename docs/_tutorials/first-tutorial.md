@@ -17,7 +17,7 @@ summary: >
     PHP TestFest tutorial.
 ---
 
-{% include wobble-message.html message="First Tutorial" class="right" %}
+{% include wooble-message.html message="First Tutorial" class="right" %}
 
 **I need some content!** Please [edit this page on GitHub](https://github.com/phpcommunity/phptestfest.org/edit/master/docs/_tutorials/first-tutorial.md) to help out the PHP TestFest project.
 
