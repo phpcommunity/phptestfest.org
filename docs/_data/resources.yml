@@ -30,3 +30,23 @@
     functionality of PHP. We'll cover everything from running the test suite
     with PHP's custom black-box testing tool called `run-tests.php` to creating
     new tests.
+
+- title: PHP TestFest VM Documentation
+  url: http://www.ericstewart.org/tfvm/
+  author: Eric Lee Stewart
+  publisher: ericstewart.org
+  date: May 2009
+  description: >
+    A virtual machine compiled for PHP TestFest 2009 and designed to reduce the
+    hassle of setting up a testing environment for PHP tests. It contains
+    compiled versions of PHP 5.2, 5.3 and 6.0 with a ton of extensions.
+
+- title: Lessons Learned from PHPT Writing
+  url: https://wiki.php.net/qa/phptlessonslearned
+  author: Josie Messa
+  publisher: wiki.php.net
+  date: May 2008
+  description: >
+    I decided to write this […] to pass the responsibility over to the new
+    testers! But also with the impending TestFests and general focus on testing
+    in the community thought it would be worthwhile to share my knowledge.

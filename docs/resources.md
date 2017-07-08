@@ -6,8 +6,6 @@ summary: >
     Here are some links to helpful resources on writing and contributing phpt tests for the PHP programming language.
 ---
 
-{% include wobble-message.html message="More resources to help you." class="right" %}
-
 Here are some links to helpful resources on writing and contributing phpt tests for the PHP programming language.
 
 ---
