@@ -23,13 +23,18 @@
         small: '(max-width: 736px)',
         xsmall: '(max-width: 480px)',
         xxsmall: '(max-width: 360px)',
-        small-to-medium: '(min-width: 481px) and (max-width: 736px)',
-        small-to-large: '(min-width: 481px) and (max-width: 1280px)',
+
         small-to-xlarge: '(min-width: 481px) and (max-width: 1680px)',
-        medium-to-large: '(min-width: 737px) and (max-width: 980px)',
-        large-to-xlarge: '(min-width: 981px) and (max-width: 1280px)',
+        small-to-large: '(min-width: 481px) and (max-width: 1280px)',
+        small-to-medium: '(min-width: 481px) and (max-width: 980px)',
+        medium-to-xlarge: '(min-width: 737px) and (max-width: 1680px)',
+        medium-to-large: '(min-width: 737px) and (max-width: 1280px)',
+        large-to-xlarge: '(min-width: 981px) and (max-width: 1680px)',
+
+        xlarge-to-max: '(min-width: 1681px)',
         large-to-max: '(min-width: 1281px)',
-        xlarge-to-max: '(min-width: 1681px)'
+        medium-to-max: '(min-width: 981px)',
+        small-to-max: '(min-width: 737px)'
     ));
 
     @include skel-layout((
