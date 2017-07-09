@@ -16,6 +16,9 @@ summary: >
 
 {% include wooble-message.html message="First Tutorial" class="right" %}
 
+The original text is on the page [Write testcases](http://qa.php.net/) from [PHP Quality Assurance Team Web Page](http://qa.php.net/write-test.php).
+The PHP Quality Assurance Team supports the PHP Development Team by providing them with information on compatibility and stability issues.
+
 # Creating new test files
 
 ## [#](#tests-basics)phpt Test Basics
