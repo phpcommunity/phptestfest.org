@@ -50,3 +50,30 @@
     I decided to write this […] to pass the responsibility over to the new
     testers! But also with the impending TestFests and general focus on testing
     in the community thought it would be worthwhile to share my knowledge.
+
+- title: "test || die"
+  url: https://speakerdeck.com/phpcommunity/test-die
+  author: Zoe Slattery
+  publisher: phplondon
+  date: 29 Feb 2008
+  description: >
+    As PHP becomes ever more successful the requirement for stability increases
+    and the freedom to make changes in the core code is correspondingly
+    restricted. Is the test coverage sufficient? Especially given the wide
+    range and depth of change required to implement Unicode support. Based on
+    experience of contributing PHP tests, I'll talk about tests, coverage and
+    what needs to happen!
+
+- title: How to write PHP tests
+  url: https://speakerdeck.com/phpcommunity/php-testfest-2009-how-to-write-php-tests
+  author: Sebastian Schürmann
+  date: 2009
+  description: >
+    These slides were created by Sebastian Schürmann for PHP TestFest 2009. They
+    cover _phpt_ tests and the PHP build environment.
+
+- title: PHPT - Test File Layout
+  url: https://qa.php.net/phpt_details.php
+  publisher: qa.php.net
+  description: >
+    A reference manual for _phpt_ test file layouts.
