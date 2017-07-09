@@ -5,7 +5,7 @@
 [![Coverage Status][badge-coverage]][coverage]
 
 Are you looking for information on PHP TestFest? Take a look at our website,
-where you can find details on organizing a PHP TestFest event, finding a group
+where you can find details on organizing a PHP TestFest event, finding a group`
 to participate with, being a mentor, and more: <https://phptestfest.org>.
 
 If you're looking to contribute to PHP TestFest, you've come to the right place.
@@ -26,6 +26,28 @@ cd testfest/
 ./bin/testfest
 ```
 
+### docker-phpqa
+
+Another tool, made by a common effort from PHP São Paulo (Brazil) and PHP
+Dublin (Ireland), is [`docker-phpqa`](https://github.com/herdphp/docker-phpqa).
+The goal is to run your PHPT in multiple PHP versions with a very simple
+workflow. 
+
+To install it in Linux or Mac you can use the command above:
+````bash
+curl -s https://raw.githubusercontent.com/herdphp/docker-phpqa/master/bin/installer.sh | bash
+````
+
+Then start using it with:
+
+````bash
+# without a version the test will run against PHP 7.1 codebase
+phpqa phpt/examples/closure_061.phpt
+# with a version the test will run against the specified version
+phpqa phpt/examples/closure_061.phpt 56
+# if you want you can pass `all` as second argument and the test will run against all versions
+phpqa phpt/examples/closure_061.phpt all
+````
 
 ## Website
 
