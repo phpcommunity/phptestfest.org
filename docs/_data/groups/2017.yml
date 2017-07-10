@@ -127,3 +127,17 @@
   contacts:
     - name: Massimiliano Arione
       email: garakkio@gmail.com
+      
+      
+- name: PHPRS
+  location: Rio Grande do Sul, Brazil
+  website: http://www.phprs.com.br/
+  meetup: https://www.meetup.com/PHP-RS/
+  twitter: https://twitter.com/phprs
+  contacts:
+    - name: Er Galvão
+      email: galvao@phprs.com.br
+    - name: Fernando Silva
+      email: fernando@phprs.com.br  
+    - name: Grupo PHPRS
+      email: contato@phprs.com.br  
