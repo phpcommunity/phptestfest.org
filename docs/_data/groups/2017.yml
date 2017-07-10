@@ -5,6 +5,17 @@
 # alphabetical order by the "name" property.
 #
 
+- name: 010PHP
+  location: Rotterdam, ZH, The Netherlands
+  website: https://010php.nl
+  meetup: https://www.meetup.com/010PHP
+  twitter: https://twitter.com/010PHP
+  contacts:
+    - name: Roberto Gardenier
+      email: roberto@010php.nl
+    - name: Peter Breuls
+      email: breuls@010php.nl
+
 - name: AtlantaPHP
   location: Atlanta, GA, USA
   website: http://atlantaphp.org
