@@ -11,15 +11,33 @@
     The definitive resource for learning to write _phpt_ tests from the PHP
     Quality Assurance team.
 
-- title: Writing Tests for PHP Source
-  url: https://speakerdeck.com/sammyk/writing-tests-for-php-source-php-tek-2017
-  author: Sammy Kaye Powers
-  publisher: php[tek] # Technically, not a publisher, but works in this context
-  date: 25 May 2017
+- title: "docker-phpqa"
+  url: https://github.com/herdphp/docker-phpqa
+  author: Bruno Ricardo Siqueira, Joao Paulo Vendramini Martins
+  publisher: phpsp, phpdublin
+  data: June 2017
   description: >
-    This isn't a talk about adding tests to your PHP codebase, but adding tests
-    to the PHP language itself. And the best part is, all the tests are written
-    in PHP…
+    Docker tools to easily create and run tests for the PHP-SRC.
+    The intent of this library is to help any PHP developer to create PHPT
+    tests for the language engine and its core extensions.
+
+- title: How to write PHP tests
+  url: https://speakerdeck.com/phpcommunity/php-testfest-2009-how-to-write-php-tests
+  author: Sebastian Schürmann
+  date: 2009
+  description: >
+    These slides were created by Sebastian Schürmann for PHP TestFest 2009. They
+    cover _phpt_ tests and the PHP build environment.
+
+- title: Lessons Learned from PHPT Writing
+  url: https://wiki.php.net/qa/phptlessonslearned
+  author: Josie Messa
+  publisher: wiki.php.net
+  date: May 2008
+  description: >
+    I decided to write this […] to pass the responsibility over to the new
+    testers! But also with the impending TestFests and general focus on testing
+    in the community thought it would be worthwhile to share my knowledge.
 
 - title: "PHP Internals Book: Testing PHP Source"
   url: http://www.phpinternalsbook.com/#testing-php-source
@@ -31,15 +49,11 @@
     with PHP's custom black-box testing tool called `run-tests.php` to creating
     new tests.
 
-- title: "docker-phpqa"
-  url: https://github.com/herdphp/docker-phpqa
-  author: Bruno Ricardo Siqueira, Joao Paulo Vendramini Martins
-  publisher: phpsp, phpdublin
-  data: June 2017
+- title: PHPT - Test File Layout
+  url: https://qa.php.net/phpt_details.php
+  publisher: qa.php.net
   description: >
-    Docker tools to easily create and run tests for the PHP-SRC.
-    The intent of this library is to help any PHP developer to create PHPT
-    tests for the language engine and its core extensions.
+    A reference manual for _phpt_ test file layouts.
 
 - title: PHP TestFest VM Documentation
   url: http://www.ericstewart.org/tfvm/
@@ -50,16 +64,6 @@
     A virtual machine compiled for PHP TestFest 2009 and designed to reduce the
     hassle of setting up a testing environment for PHP tests. It contains
     compiled versions of PHP 5.2, 5.3 and 6.0 with a ton of extensions.
-
-- title: Lessons Learned from PHPT Writing
-  url: https://wiki.php.net/qa/phptlessonslearned
-  author: Josie Messa
-  publisher: wiki.php.net
-  date: May 2008
-  description: >
-    I decided to write this […] to pass the responsibility over to the new
-    testers! But also with the impending TestFests and general focus on testing
-    in the community thought it would be worthwhile to share my knowledge.
 
 - title: "test || die"
   url: https://speakerdeck.com/phpcommunity/test-die
@@ -74,16 +78,12 @@
     experience of contributing PHP tests, I'll talk about tests, coverage and
     what needs to happen!
 
-- title: How to write PHP tests
-  url: https://speakerdeck.com/phpcommunity/php-testfest-2009-how-to-write-php-tests
-  author: Sebastian Schürmann
-  date: 2009
+- title: Writing Tests for PHP Source
+  url: https://speakerdeck.com/sammyk/writing-tests-for-php-source-php-tek-2017
+  author: Sammy Kaye Powers
+  publisher: php[tek] # Technically, not a publisher, but works in this context
+  date: 25 May 2017
   description: >
-    These slides were created by Sebastian Schürmann for PHP TestFest 2009. They
-    cover _phpt_ tests and the PHP build environment.
-
-- title: PHPT - Test File Layout
-  url: https://qa.php.net/phpt_details.php
-  publisher: qa.php.net
-  description: >
-    A reference manual for _phpt_ test file layouts.
+    This isn't a talk about adding tests to your PHP codebase, but adding tests
+    to the PHP language itself. And the best part is, all the tests are written
+    in PHP…

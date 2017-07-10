@@ -1,6 +1,6 @@
 <div class="resources-listing">
 
-    {% assign resources = include.resources | sort: 'title' %}
+    {% assign resources = include.resources %}
     {% for resource in resources %}
     <div class="resource">
         <div class="box">
