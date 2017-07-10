@@ -17,7 +17,7 @@
     <category term="testing"/>
 
     {% assign tutorials = site.tutorials | sort: 'date' %}
-    {% for tutorial in tutorials %}
+    {% for tutorial in tutorials reversed %}
     <entry>
         <title type="html">{{ tutorial.title | xml_escape }}</title>
         <link href="https://phptestfest.org{{ tutorial.url }}"/>

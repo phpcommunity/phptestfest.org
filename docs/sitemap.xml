@@ -3,52 +3,53 @@
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   <url>
-       <loc>https://phptestfest.org/</loc>
-       <priority>1.0</priority>
-       <changefreq>daily</changefreq>
-   </url>
-   <url>
-       <loc>https://phptestfest.org/start/</loc>
-       <priority>0.9</priority>
-   </url>
-   <url>
-       <loc>https://phptestfest.org/lead/</loc>
-       <priority>0.9</priority>
-   </url>
-   <url>
-       <loc>https://phptestfest.org/mentors/</loc>
-       <priority>0.9</priority>
-   </url>
-   <url>
-       <loc>https://phptestfest.org/tutorials/</loc>
-       <priority>0.9</priority>
-   </url>
-   <url>
-       <loc>https://phptestfest.org/groups/</loc>
-       <priority>0.9</priority>
-   </url>
-   <url>
-       <loc>https://phptestfest.org/resources/</loc>
-       <priority>0.9</priority>
-   </url>
+    <url>
+        <loc>https://phptestfest.org/</loc>
+        <priority>1.0</priority>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://phptestfest.org/start/</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://phptestfest.org/lead/</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://phptestfest.org/mentors/</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://phptestfest.org/tutorials/</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://phptestfest.org/groups/</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://phptestfest.org/resources/</loc>
+        <priority>0.9</priority>
+    </url>
 
-   {% for tutorial in site.tutorials %}
-   <url>
-       <loc>https://phptestfest.org{{ tutorial.url }}</loc>
-   </url>
-   {% endfor %}
+    {% assign tutorials = site.tutorials | sort: 'date' %}
+    {% for tutorial in site.tutorials reversed %}
+    <url>
+        <loc>https://phptestfest.org{{ tutorial.url }}</loc>
+    </url>
+    {% endfor %}
 
-   {% for year in site.groups %}
-   <url>
-       <loc>https://phptestfest.org{{ year.url }}</loc>
-   </url>
-   {% endfor %}
+    {% for year in site.groups %}
+    <url>
+        <loc>https://phptestfest.org{{ year.url }}</loc>
+    </url>
+    {% endfor %}
 
-   {% for year in site.mentors %}
-   <url>
-       <loc>https://phptestfest.org{{ year.url }}</loc>
-   </url>
-   {% endfor %}
+    {% for year in site.mentors %}
+    <url>
+        <loc>https://phptestfest.org{{ year.url }}</loc>
+    </url>
+    {% endfor %}
 
 </urlset>

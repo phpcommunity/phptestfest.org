@@ -68,7 +68,7 @@ summary: >
         <h2>Recent Tutorials</h2>
     </header>
     <div class="posts">
-        {% for tutorial in tutorials limit:6 %}
+        {% for tutorial in tutorials reversed limit:6 %}
         <article>
             {% if tutorial.image.url %}
             <a href="{{ tutorial.url }}" class="image">

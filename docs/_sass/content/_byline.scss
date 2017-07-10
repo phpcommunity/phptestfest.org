@@ -1,9 +1,10 @@
 .icons {
     &.byline {
-        margin: -2em 0 3em 0 !important;
+        margin: -1.75em 0 3em 0 !important;
 
         @include breakpoint(small) {
-            margin: -1.5em 0 3em 0 !important;
+            margin: -0.5em 0 3em 0 !important;
+            line-height: 1.25;
         }
 
         li {
