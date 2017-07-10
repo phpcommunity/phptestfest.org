@@ -2,11 +2,12 @@
 layout: page
 title: Getting Started
 permalink: start/index.html
+wooble:
+    message: "Welcome to PHP TestFest!"
+    class: right
 summary: >
     Don't worry! Content for this page is coming very soon! You'll soon learn how to get started with PHP TestFest.
 ---
-
-{% include wooble-message.html message="Welcome to PHP TestFest!" class="right" %}
 
 Don't worry! Content for this page is coming very soon! You'll soon learn how to get started with PHP TestFest.
 

@@ -10,11 +10,12 @@ image:
     alt: Hot air balloons
     title: BALLOONS by Mahir Uysal
     credit: Photo by [Mahir Uysal](https://unsplash.com/photos/pDfMZIsHV68).
+wooble:
+    message: "Create new phpt files!"
+    class: right
 summary: >
     How create a phpt test file. Please help us create other PHP TestFest tutorials.
 ---
-
-{% include wooble-message.html message="Create new phpt files!" class="right" %}
 
 _This tutorial is taken from "[Creating new test files](https://qa.php.net/write-test.php)" from the [PHP Quality Assurance Team Web Page](https://qa.php.net).
 The PHP Quality Assurance Team supports the PHP Development Team by providing them with information on compatibility and stability issues._

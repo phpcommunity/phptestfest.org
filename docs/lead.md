@@ -2,11 +2,12 @@
 layout: page
 title: Organize a PHP TestFest Event
 permalink: lead/index.html
+wooble:
+    message: "Organize an event!"
+    class: right
 summary: >
     Don't worry! Content for this page is coming very soon! You'll soon learn how to organize a PHP TestFest event for your area.
 ---
-
-{% include wooble-message.html message="Organize an event!" class="right" %}
 
 Don't worry! Content for this page is coming very soon! You'll soon learn how to organize a PHP TestFest event for your area.
 

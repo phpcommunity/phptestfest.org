@@ -25,6 +25,10 @@ layout: base
         {% endif %}
     {% endif %}
 
+{% if page.wooble.message %}
+    {% include wooble-message.html message=page.wooble.message class=page.wooble.class %}
+{% endif %}
+
 {{ content }}
 
 </section>

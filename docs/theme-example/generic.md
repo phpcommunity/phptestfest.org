@@ -13,12 +13,13 @@ image:
     alt: Nuts and bolts and other machine parts
     title: Spare Parts by Igor Ovsyannykov
     credit: Photo by [Igor Ovsyannykov](https://unsplash.com/photos/HFG53IIJ8y0).
+wooble:
+    message: "You can change my message."
+    class: right
 summary: >
     This is a short description of the page. If set, this summary appears in the
     meta description for the page.
 ---
-
-{% include wooble-message.html message="You can change my message." class="right" %}
 
 Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
 
