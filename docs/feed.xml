@@ -7,7 +7,7 @@
     <title>PHP TestFest</title>
     <subtitle>Improving code coverage of the PHP language</subtitle>
     <id>https://phptestfest.org/</id>
-    <updated>{{ site.time | date: '%FT%T%z' }}</updated>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
     <icon>https://phptestfest.org/assets/favicon/favicon-32x32.png</icon>
 
     <link rel="self" href="https://phptestfest.org/feed.xml"/>
