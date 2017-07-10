@@ -26,6 +26,10 @@ cd testfest/
 ./bin/testfest
 ```
 
+Another tool, made by a common effort from PHP São Paulo (Brazil) and PHP Dublin 
+(Ireland), is [`docker-phpqa`](https://github.com/herdphp/docker-phpqa). 
+The goal is to run your PHPT in multiple PHP versions with a [very simple workflow](https://phptestfest.org/tutorials/phpqa-tutorial.html).
+
 ## Website
 
 The [PHP TestFest website](https://phptestfest.org) is maintained in the `docs/`
