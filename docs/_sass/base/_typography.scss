@@ -137,6 +137,22 @@
 
     code {
         @include code;
+
+        font-size: 0.85em;
+        margin: 0;
+        padding: 0.15em 0.65em;
+
+        @include breakpoint(medium) {
+            font-size: 0.85em;
+        }
+
+        @include breakpoint(small) {
+            font-size: 0.75em;
+        }
+
+        @include breakpoint(xsmall) {
+            font-size: 0.65em;
+        }
     }
 
     pre {

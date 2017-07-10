@@ -241,15 +241,22 @@
     }
 
     dl {
-        margin: 0 0 _size(element-margin) 0;
+        padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
+
+        @include breakpoint(small) {
+            padding-left: 0;
+        }
 
         dt {
             display: block;
-            font-weight: _font(weight-bold);
-            margin: 0 0 (_size(element-margin) * 0.5) 0;
+            font-family: _font(family-heading);
+            font-weight: _font(weight-heading-alt);
+            font-style: italic;
+            margin: 0 0 (_size(element-margin) * 0.25) 0;
         }
 
         dd {
             margin-left: _size(element-margin);
+            margin-bottom: _size(element-margin);
         }
     }
