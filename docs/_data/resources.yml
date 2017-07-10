@@ -31,6 +31,16 @@
     with PHP's custom black-box testing tool called `run-tests.php` to creating
     new tests.
 
+- title: "PHPQA - Docker tools to easily create and run tests for the PHP-SRC"
+  url: https://github.com/herdphp/docker-phpqa
+  author: Bruno Ricardo Siqueira, Joao Paulo Vendramini Martins
+  publisher: PHPSP, PHPDublin
+  data: June 2017
+  description: >
+    Docker tools to easily create and run tests for the PHP-SRC. 
+    The intent of this library is to help any PHP developer to create PHPT 
+    tests for the language engine and its core extensions.
+
 - title: PHP TestFest VM Documentation
   url: http://www.ericstewart.org/tfvm/
   author: Eric Lee Stewart
