@@ -16,7 +16,7 @@ summary: >
 
 <section>
     <div class="posts">
-        {% for tutorial in tutorials %}
+        {% for tutorial in tutorials reversed %}
         <article>
             {% if tutorial.image.url %}
             <a href="{{ tutorial.url }}" class="image">
