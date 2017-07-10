@@ -1,7 +1,7 @@
 ---
 # Include front-matter to ensure Jekyll processes this file.
 ---
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
     <title>PHP TestFest</title>
@@ -15,6 +15,7 @@
 
     <category term="php"/>
     <category term="testing"/>
+    <category term="tutorial"/>
 
     {% assign tutorials = site.tutorials | sort: 'date' %}
     {% for tutorial in tutorials reversed %}
@@ -31,12 +32,31 @@
         </author>
         {% endif %}
         {% if tutorial.summary %}
-        <summary type="html">
-            {{ tutorial.summary | markdownify | xml_escape }}
+        <summary type="text">
+            {% if tutorial.summary %}{{ tutorial.summary | markdownify | strip_html | strip_newlines | normalize_whitespace }}{% else %}{{ tutorial.content | markdownify | strip_html | strip_newlines | normalize_whitespace | truncatewords: 200 }}{% endif %}
         </summary>
         {% endif %}
         <content type="html">
+            {% if tutorial.image.url %}
+                {% capture image %}
+                <p><span class="image main"><img src="{{ tutorial.image.url | absolute_url }}" alt="{{ tutorial.image.alt }}" title="{{ tutorial.image.title }}"></span></p>
+                {% if tutorial.image.credit %}
+                <span class="credit"><small>{{ tutorial.image.credit | markdownify }}</small></span>
+                {% endif %}
+                </p>
+                {% endcapture %}
+                {{ image | xml_escape }}
+            {% endif %}
             {{ tutorial.content | xml_escape }}
+            {% if tutorial.author.name %}
+                {{ "<hr>" | xml_escape }}
+                {% capture author %}
+                <p class="author">
+                    by {{ tutorial.author.name }}{% if tutorial.author.website %}, <a href="{{ tutorial.author.website }}" class="icon fa-globe" title="Visit {{ tutorial.author.name }}'s website"><span class="label">Website</span></a>{% endif %}{% if tutorial.author.twitter %}, <a href="{{ tutorial.author.twitter }}" class="icon fa-twitter" title="Follow {{ tutorial.author.name }} on Twitter"><span class="label">Twitter</span></a>{% endif %}
+                </p>
+                {% endcapture %}
+                {{ author | xml_escape }}
+            {% endif %}
         </content>
     </entry>
     {% endfor %}

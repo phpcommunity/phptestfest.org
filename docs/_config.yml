@@ -1,3 +1,6 @@
+url: "https://phptestfest.org"
+baseurl: ""
+
 # Collections
 collections:
   groups:

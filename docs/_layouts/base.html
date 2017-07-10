@@ -8,7 +8,7 @@
     <head>
         {% assign collection = site.collections | where: "label", page.collection | first %}
         {% capture pageTitle %}PHP TestFest{% if collection %} &raquo; {{ collection.name }}{% endif %}{% if page.title %} &raquo; {{ page.title }}{% endif %}{% endcapture %}
-        {% capture description %}{% if page.summary %}{{ page.summary | markdownify | strip_html | strip_newlines }}{% else %}{{ page.content | markdownify | strip_html | strip_newlines | truncate: 160 }}{% endif %}{% endcapture %}
+        {% capture description %}{% if page.summary %}{{ page.summary | markdownify | strip_html | strip_newlines | normalize_whitespace }}{% else %}{{ page.content | markdownify | strip_html | strip_newlines | normalize_whitespace | truncate: 160 }}{% endif %}{% endcapture %}
         {% capture shareImage %}https://phptestfest.org{% if page.image.url %}{{ page.image.url }}{% else %}/images/wooble-brigade.jpg{% endif %}{% endcapture %}
 
         <title>{{ pageTitle }}</title>
