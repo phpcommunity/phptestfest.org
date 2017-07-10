@@ -29,7 +29,7 @@
         <meta property="og:url" content="https://phptestfest.org{{ page.url | remove: "index.html" }}">
         <meta property="og:title" content="{{ pageTitle }}">
         <meta property="og:description" content="{{ description }}">
-        <meta property="og:image" content="{{ page.image.url }}">
+        <meta property="og:image" content="{% if page.image.url %}https://phptestfest.org{{ page.image.url }}{% endif %}">
         <meta property="fb:app_id" content="1899339690092585">
         <meta property="og:site_name" content="PHP TestFest">
         <meta property="og:type" content="website">
