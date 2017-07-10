@@ -5,7 +5,7 @@
 [![Coverage Status][badge-coverage]][coverage]
 
 Are you looking for information on PHP TestFest? Take a look at our website,
-where you can find details on organizing a PHP TestFest event, finding a group`
+where you can find details on organizing a PHP TestFest event, finding a group
 to participate with, being a mentor, and more: <https://phptestfest.org>.
 
 If you're looking to contribute to PHP TestFest, you've come to the right place.
@@ -26,9 +26,12 @@ cd testfest/
 ./bin/testfest
 ```
 
-Another tool, made by a common effort from PHP São Paulo (Brazil) and PHP Dublin 
-(Ireland), is [`docker-phpqa`](https://github.com/herdphp/docker-phpqa). 
-The goal is to run your PHPT in multiple PHP versions with a [very simple workflow](https://phptestfest.org/tutorials/phpqa-tutorial.html).
+### docker-phpqa
+
+Another tool, made by a common effort from PHP São Paulo (Brazil) and PHP Dublin
+(Ireland), is [`docker-phpqa`](https://github.com/herdphp/docker-phpqa).
+The goal is to run your PHPT in multiple PHP versions with a [very simple workflow](https://phptestfest.org/tutorials/phpqa-tutorial/).
+
 
 ## Website
 
