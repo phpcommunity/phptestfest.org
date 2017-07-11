@@ -128,6 +128,14 @@
     - name: Massimiliano Arione
       email: garakkio@gmail.com
       
+- name: PUG Milano
+  location: Milano, Italy
+  website: http://milano.grusp.org
+  meetup: http://www.meetup.com/MilanoPHP
+  twitter: https://twitter.com/MilanoPHP
+  contacts:
+    - name: PUG-MI Coordinators
+      email: pugmilano@gmail.com
       
 - name: PHPRS
   location: Rio Grande do Sul, Brazil
