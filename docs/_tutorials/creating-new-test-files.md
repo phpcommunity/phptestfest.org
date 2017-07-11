@@ -159,7 +159,7 @@ If you know a new test won't run in a specific environment, try to write the com
 
 Make sure sets of data are consistently ordered. SQL queries are not guaranteed to return results in the same order unless an ORDER BY clause is used. Directory listings are another example that can vary: use an appropriate PHP function to sort them befor printing. Both of these examples have affected PHP tests in the past.
 
-Make sure that any test touching parsing or display of dates uses a hard-defined timezone—preferably UTC. It is important tha this is defined in the file section using:
+Make sure that any test touching parsing or display of dates uses a hard-defined timezone—preferably UTC. It is important that this is defined in the file section using:
 
 ```
 date_default_timezone_set('UTC');
