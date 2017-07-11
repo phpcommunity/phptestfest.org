@@ -15,7 +15,7 @@
   url: https://github.com/herdphp/docker-phpqa
   author: Bruno Ricardo Siqueira, Joao Paulo Vendramini Martins
   publisher: phpsp, phpdublin
-  data: June 2017
+  date: June 2017
   description: >
     Docker tools to easily create and run tests for the PHP-SRC.
     The intent of this library is to help any PHP developer to create PHPT
