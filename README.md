@@ -95,10 +95,38 @@ needed:
 
 ### Testing Changes Locally
 
-#### Configure Your Environment
+There are two ways to test changes to the `docs/` directory locally: via Docker
+or getting all the dependencies installed on your system.
 
-To test changes to the `docs/` directory locally, follow these steps to make
-sure you have the GitHub Pages dependencies installed:
+#### Via Docker (preferred)
+
+##### Configure Your Environment
+
+Firstly, make sure that you have [Docker](https://www.docker.com/) installed.
+Then from a command prompt, type the following commands:
+
+``` bash
+git clone https://github.com/phpcommunity/phptestfest.org.git
+cd phptestfest.org/docs/
+```
+
+##### Previewing Changes
+
+To preview your changes, type the following into a command prompt from the
+`docs/` directory:
+
+``` bash
+docker run --rm -v "$PWD":/usr/src/app -p "4000:4000" phpcommunity/github-pages
+```
+
+Now, you may preview the site in your web browser at `http://localhost:4000`.
+
+#### Via locally installed dependencies
+
+##### Configure Your Environment
+
+Follow these steps to make sure you have the GitHub Pages dependencies
+installed:
 
 * (optional but recommended) [Install rbenv](https://github.com/rbenv/rbenv#installation)
   * After installing, type `rbenv install 2.3.3` at a command prompt to install
@@ -113,7 +141,7 @@ gem install bundler
 bundle install
 ```
 
-#### Previewing Changes
+##### Previewing Changes
 
 To preview your changes, type the following into a command prompt from the
 `docs/` directory:
