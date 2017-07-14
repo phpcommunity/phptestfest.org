@@ -114,7 +114,16 @@
   contacts:
     - name: Gabriel Somoza
       email: gabriel@strategery.io
-      
+
+- name: PHP Vegas
+  location: Las Vegas, NV USA
+  website: http://www.phpvegas.com/
+  meetup: https://www.meetup.com/PHP-Vegas/
+  twitter: https://twitter.com/PHPVegas
+  contacts:
+    - name: PHP Vegas Team
+      email: team@phpvegas.com
+
 - name: PHPDublin
   location: Dublin, Ireland
   website: http://phpdublin.com/
