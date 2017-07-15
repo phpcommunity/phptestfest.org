@@ -156,4 +156,13 @@
     - name: Fernando Silva
       email: fernando@phprs.com.br  
     - name: Grupo PHPRS
-      email: contato@phprs.com.br  
+      email: contato@phprs.com.br 
+      
+- name: PHP Leuven
+  location: Leuven, Belgium
+  website: https://www.meetup.com/PHP-Leuven-Web-Innovation-Group/
+  meetup: https://www.meetup.com/PHP-Leuven-Web-Innovation-Group/
+  twitter: https://twitter.com/phpleuven
+  contacts:
+    - name: Bart Reunes
+      email: metalarend@gmail.com
