@@ -90,6 +90,14 @@
     - name: Mark Niebergall
       email: mbniebergall@gmail.com
 
+- name: Palm Beach PHP
+  location: West Palm Beach, FL, USA
+  meetup: https://www.meetup.com/Palm-Beach-PHP/
+  twitter: https://twitter.com/SoFloPHP
+  contacts:
+    - name: Cal Evans
+      email: cal@nomadphp.com
+      
 - name: PHPDublin
   location: Dublin, Ireland
   website: http://phpdublin.com/
