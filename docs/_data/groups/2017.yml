@@ -152,6 +152,19 @@
   contacts:
     - name: PUG-MI Coordinators
       email: pugmilano@gmail.com
+
+- name: PHPPR
+  location: Paraná, Brazil
+  website: http://www.phppr.org/
+  meetup: https://www.meetup.com/pt-BR/PHP-PR
+  twitter: https://twitter.com/phppr_org
+  contacts:
+    - name: Domingos Teruel
+      email: mingomax@dteruel.net.br
+    - name: Flavio Silveira
+      email: flavioaugustosilveira@gmail.com
+    - name: Fernando Moreira
+      email: nandomoreira.me@gmail.com
       
 - name: PHPRS
   location: Rio Grande do Sul, Brazil
