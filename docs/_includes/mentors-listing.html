@@ -25,12 +25,22 @@
                 </div>
             {% endif %}
 
+            {% if mentor.groups %}
+                <h4>Working With</h4>
+                <ul class="alt">
+                {% assign groups = mentor.groups | sort %}
+                {% for group in groups %}
+                    <li>{{ group | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+
             {% if mentor.specialties %}
                 <h4>Specialties</h4>
                 <ul class="alt">
                 {% assign specialties = mentor.specialties | sort %}
                 {% for specialty in specialties %}
-                    <li>{{ specialty | smartify }}</li>
+                    <li>{{ specialty | markdownify | remove: '<p>' | remove: '</p>' }}</li>
                 {% endfor %}
                 </ul>
             {% endif %}

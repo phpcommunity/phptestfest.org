@@ -1,6 +1,29 @@
 #
 # PHP TestFest 2017: Mentors
 #
+# When adding or modifying mentor details, please keep mentors arranged
+# in alphabetical order by the "name" property.
+#
+# Example:
+#
+# - name: Jane Doe
+#   location: New York, NY, USA
+#   website: http://example.com
+#   twitter: https://twitter.com/phptestfest
+#   email: jane@example.com
+#   available:
+#     forLocal: true # Available for local mentoring
+#     forRemote: true # Available for remote (online) mentoring
+#     forTravel: false # Available to travel to mentor a group
+#   groups:
+#     # If not yet working with a group, don't add a group.
+#     - "[A User Group](http://example.com)"
+#   specialties:
+#     # Specialties are not required but can be helpful.
+#     - filter ext
+#     - spl
+#     - array functions
+#
 
 - name: Ben Ramsey
   location: Nashville, TN, USA
@@ -11,7 +34,5 @@
     forLocal: true
     forRemote: false
     forTravel: false
-  specialties:
-    - Array functions
-    - BC Math
-    - SimpleXML
+  groups:
+    - "[Nashville PHP](http://nashvillephp.org)"
