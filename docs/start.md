@@ -11,7 +11,7 @@ wooble:
     message: "Welcome to PHP TestFest!"
     class: right
 summary: >
-    PHP TestFest aims to improve the code coverage of the test suite for the PHP programming language.
+    PHP TestFest aims to improve the code coverage of the test suite for the PHP programming language and encourage PHP programmers to make core contributions.
 ---
 
 In 2008, a group of contributors from the [PHP-QA](https://qa.php.net/) team met at the PHP Quebec conference to [finalize plans for a PHP TestFest](http://news.php.net/php.qa/64083). When [announced](http://news.php.net/php.qa/64129), Lukas Kahwe Smith described it as "an event that aims at improving the code coverage of the test suite for the PHP language itself." PHP TestFest was a global success, with [many user groups from around the world](https://wiki.php.net/qa/testfest-2009) participating to help improve the code coverage of the PHP language.
