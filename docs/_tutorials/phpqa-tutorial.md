@@ -18,7 +18,7 @@ summary: >
 ---
 ## How to get it?
 
-1. You will **need** to have [docker](https://www.docker.com/community-edition) installed on your machine.
+1. You will **need** to have [docker][docker] installed on your machine.
 
 2. Run our installer:
 
@@ -92,5 +92,11 @@ PHP 5.5, 5.6, 7.0, 7.1 and 7.2 (Beta1) are fully available and supported;
 
 ## Contributing
 
-If you notice any bug or typo, please feel free to [create an issue and/or open a pull request](https://github.com/herdphp/docker-phpqa)
+If you notice any bug or typo, please feel free to [create an issue and/or open a pull request][docker-phpqa]
 with the fix.
+
+[php-src]: https://github.com/php/php-src
+[generate-phpt]: https://github.com/php/php-src/tree/master/scripts/dev/generate-phpt
+[php-function-ucfirst]: http://php.net/manual/en/function.ucfirst.php
+[docker-phpqa]: https://github.com/herdphp/docker-phpqa
+[docker]: https://www.docker.com/community-edition
