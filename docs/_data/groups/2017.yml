@@ -187,3 +187,12 @@
   contacts:
     - name: Bart Reunes
       email: metalarend@gmail.com
+      
+- name: İstanbul PHP
+  location: İstanbul, Turkey
+  website: https://www.meetup.com/IstanbulPHP
+  meetup: https://www.meetup.com/IstanbulPHP/
+  twitter: https://twitter.com/istanbulphp
+  contacts:
+    - name: Emir Karşıyakalı
+      email: emirkarsiyakali@gmail.com
