@@ -33,6 +33,15 @@
     - name: Matteo Beccati
       email: mbeccati@php.net
 
+- name: İstanbul PHP
+  location: İstanbul, Turkey
+  website: https://www.meetup.com/IstanbulPHP
+  meetup: https://www.meetup.com/IstanbulPHP/
+  twitter: https://twitter.com/istanbulphp
+  contacts:
+    - name: Emir Karşıyakalı
+      email: emirkarsiyakali@gmail.com
+
 - name: Kansas City PHP UG
   location: Kansas City, MO, USA
   website: http://kcpug.org/
