@@ -13,7 +13,7 @@ image:
     title: Thousand Colors by Lucas Gallone
     credit: Photo by [Lucas Gallone](https://unsplash.com/photos/PVw_vtpCGaM).
 summary: >
-    Docker tools to easily create and run tests for the [PHP-SRC][php-src]. The intent of this library is to help any PHP 
+    Docker tools to easily create and run tests for the [PHP-SRC](https://github.com/php/php-src). The intent of this library is to help any PHP 
     developer to create PHPT tests for the language engine and its core extensions.
 ---
 ## How to get it?
@@ -95,7 +95,6 @@ PHP 5.5, 5.6, 7.0, 7.1 and 7.2 (Beta1) are fully available and supported;
 If you notice any bug or typo, please feel free to [create an issue and/or open a pull request][docker-phpqa]
 with the fix.
 
-[php-src]: https://github.com/php/php-src
 [generate-phpt]: https://github.com/php/php-src/tree/master/scripts/dev/generate-phpt
 [php-function-ucfirst]: http://php.net/manual/en/function.ucfirst.php
 [docker-phpqa]: https://github.com/herdphp/docker-phpqa
