@@ -152,7 +152,15 @@
   contacts:
     - name: Massimiliano Arione
       email: garakkio@gmail.com
-      
+
+- name: PHP Limburg
+  location: Limburg, Belgium
+  meetup: https://www.meetup.com/PHP-Limburg-BE/
+  twitter: https://twitter.com/phplimbe
+  contacts:
+    - name: Gabriel Somoza
+      email: gabriel@strategery.io
+
 - name: PUG Milano
   location: Milano, Italy
   website: http://milano.grusp.org
