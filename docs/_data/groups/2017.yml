@@ -178,6 +178,17 @@
     - name: Rogerio Prado de Jesus
       email: rogerio@phpsp.org.br
 
+- name: PHPUG Rheinhessen
+  location: Mainz, Germany
+  website: http://www.phpug-rheinhessen.de/
+  meetup: https://www.meetup.com/de-DE/PHP-User-Group-Rheinhessen/
+  twitter: https://twitter.com/phpugrhh
+  contacts:
+    - name: Christian Münch
+      email: christian@muench-worms.de
+    - name: Matthias Gutjahr
+      email: mail@matthias-gutjahr.de
+
 - name: PUG Milano
   location: Milano, Italy
   website: http://milano.grusp.org
