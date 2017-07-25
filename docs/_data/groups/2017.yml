@@ -90,15 +90,6 @@
     - name: Rachel Werner
       email: organizers@nashvillephp.org
 
-- name: Utah PHP
-  location: Lehi, UT, USA
-  website: http://uphpu.org
-  meetup: http://www.meetup.com/Utah-PHP-User-Group
-  twitter: https://twitter.com/uphpu
-  contacts:
-    - name: Mark Niebergall
-      email: mbniebergall@gmail.com
-
 - name: Palm Beach PHP
   location: West Palm Beach, FL, USA
   meetup: https://www.meetup.com/Palm-Beach-PHP/
@@ -106,6 +97,23 @@
   contacts:
     - name: Cal Evans
       email: cal@nomadphp.com
+
+- name: PHP Leuven
+  location: Leuven, Belgium
+  website: https://www.meetup.com/PHP-Leuven-Web-Innovation-Group/
+  meetup: https://www.meetup.com/PHP-Leuven-Web-Innovation-Group/
+  twitter: https://twitter.com/phpleuven
+  contacts:
+    - name: Bart Reunes
+      email: metalarend@gmail.com
+
+- name: PHP Limburg
+  location: Limburg, Belgium
+  meetup: https://www.meetup.com/PHP-Limburg-BE/
+  twitter: https://twitter.com/phplimbe
+  contacts:
+    - name: Gabriel Somoza
+      email: gabriel@strategery.io
       
 - name: PHPDublin
   location: Dublin, Ireland
@@ -135,41 +143,6 @@
     - name: Shaun Hare
       email: shaun@phpminds.org
 
-- name: PHPSP
-  location: São Paulo, Brazil
-  website: http://phpsp.org.br/
-  meetup: https://www.meetup.com/php-sp/
-  twitter: https://twitter.com/phpsp
-  contacts:
-    - name: Rogerio Prado de Jesus
-      email: rogerio@phpsp.org.br
-      
-- name: PUG Roma
-  location: Roma, Italy
-  website: http://roma.grusp.org/
-  meetup: http://www.meetup.com/it-IT/PUG-Roma/
-  twitter: https://twitter.com/PUG_Roma
-  contacts:
-    - name: Massimiliano Arione
-      email: garakkio@gmail.com
-
-- name: PHP Limburg
-  location: Limburg, Belgium
-  meetup: https://www.meetup.com/PHP-Limburg-BE/
-  twitter: https://twitter.com/phplimbe
-  contacts:
-    - name: Gabriel Somoza
-      email: gabriel@strategery.io
-
-- name: PUG Milano
-  location: Milano, Italy
-  website: http://milano.grusp.org
-  meetup: http://www.meetup.com/MilanoPHP
-  twitter: https://twitter.com/MilanoPHP
-  contacts:
-    - name: PUG-MI Coordinators
-      email: pugmilano@gmail.com
-
 - name: PHPPR
   location: Paraná, Brazil
   website: http://www.phppr.org/
@@ -182,7 +155,7 @@
       email: flavioaugustosilveira@gmail.com
     - name: Fernando Moreira
       email: nandomoreira.me@gmail.com
-      
+
 - name: PHPRS
   location: Rio Grande do Sul, Brazil
   website: http://www.phprs.com.br/
@@ -192,15 +165,42 @@
     - name: Er Galvão
       email: galvao@galvao.eti.br
     - name: Fernando Silva
-      email: fernando@phprs.com.br  
+      email: fernando@phprs.com.br
     - name: Grupo PHPRS
-      email: contato@phprs.com.br 
-      
-- name: PHP Leuven
-  location: Leuven, Belgium
-  website: https://www.meetup.com/PHP-Leuven-Web-Innovation-Group/
-  meetup: https://www.meetup.com/PHP-Leuven-Web-Innovation-Group/
-  twitter: https://twitter.com/phpleuven
+      email: contato@phprs.com.br
+
+- name: PHPSP
+  location: São Paulo, Brazil
+  website: http://phpsp.org.br/
+  meetup: https://www.meetup.com/php-sp/
+  twitter: https://twitter.com/phpsp
   contacts:
-    - name: Bart Reunes
-      email: metalarend@gmail.com
+    - name: Rogerio Prado de Jesus
+      email: rogerio@phpsp.org.br
+
+- name: PUG Milano
+  location: Milano, Italy
+  website: http://milano.grusp.org
+  meetup: http://www.meetup.com/MilanoPHP
+  twitter: https://twitter.com/MilanoPHP
+  contacts:
+    - name: PUG-MI Coordinators
+      email: pugmilano@gmail.com
+
+- name: PUG Roma
+  location: Roma, Italy
+  website: http://roma.grusp.org/
+  meetup: http://www.meetup.com/it-IT/PUG-Roma/
+  twitter: https://twitter.com/PUG_Roma
+  contacts:
+    - name: Massimiliano Arione
+      email: garakkio@gmail.com
+
+- name: Utah PHP
+  location: Lehi, UT, USA
+  website: http://uphpu.org
+  meetup: http://www.meetup.com/Utah-PHP-User-Group
+  twitter: https://twitter.com/uphpu
+  contacts:
+    - name: Mark Niebergall
+      email: mbniebergall@gmail.com

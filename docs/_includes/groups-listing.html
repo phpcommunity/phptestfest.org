@@ -1,6 +1,6 @@
 <div class="groups-listing">
 
-    {% assign groups = include.groups | sort: 'name' %}
+    {% assign groups = include.groups %}
     {% for group in groups %}
     <div class="group">
         <div class="box">
