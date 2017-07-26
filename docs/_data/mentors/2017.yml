@@ -36,3 +36,14 @@
     forTravel: false
   groups:
     - "[Nashville PHP](http://nashvillephp.org)"
+
+- name: Kalle Sommer Nielsen
+  location: København, Denmark
+  twitter: https://twitter.com/KalleZ
+  email: kalle@php.net
+  available:
+    forLocal: true
+    forRemote: true
+    forTravel: false
+  groups:
+    - "[Copenhagne PHP](https://www.meetup.com/copenhagenphp/)"
