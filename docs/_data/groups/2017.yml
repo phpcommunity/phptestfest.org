@@ -152,6 +152,19 @@
     - name: Shaun Hare
       email: shaun@phpminds.org
 
+- name: PHPRio
+  location: Rio de Janeiro, Brazil
+  website: http://php.rio/
+  meetup: https://www.meetup.com/pt-BR/PHP-Rio/
+  twitter: https://twitter.com/phprio
+  contacts:
+    - name: Raphael Almeida
+      email: raphael.dealmeida@phprio.org
+    - name: Igor Santos
+      email: igorsantos07@phprio.org
+    - name: Vitor Mattos
+      email: vitor.mattos@gmail.com
+
 - name: PHPPR
   location: Paraná, Brazil
   website: http://www.phppr.org/
