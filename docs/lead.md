@@ -6,14 +6,24 @@ wooble:
     message: "Organize an event!"
     class: right
 summary: >
-    Don't worry! Content for this page is coming very soon! You'll soon learn how to organize a PHP TestFest event for your area.
+    What are the important things you shouldn't miss when you want to organize a TestFest-Event. This is a "work-in-progress" and if you feel something is missing, open a PullRequest or discuss it via one of the channels!
 ---
 
-Don't worry! Content for this page is coming very soon! You'll soon learn how to organize a PHP TestFest event for your area.
+What are the important things you shouldn't miss when you want to organize a TestFest-Event. This is a "work-in-progress" and if you feel something is missing, open a PullRequest or discuss it via one of the channels!
 
 ---
 {:.major}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere elit et risus egestas, in convallis sapien porta. Aliquam eget libero velit. Sed blandit efficitur mi. Phasellus sit amet semper lorem. Suspendisse egestas, lorem id sodales dictum, orci enim placerat leo, et viverra erat neque a mi. Suspendisse potenti. Quisque facilisis viverra sapien vel dignissim. Integer fringilla commodo nulla. Mauris ac nulla justo. Sed nec lobortis quam. Vivamus dictum luctus neque, vel convallis nisl ullamcorper efficitur. Pellentesque sed nulla maximus, aliquet purus id, pretium nulla. Aenean sit amet tortor est. Aliquam erat volutpat.
+# Organize an Event
 
-Aliquam congue tempor dui sed rutrum. Morbi congue dui pretium tortor efficitur, et iaculis ex blandit. Phasellus ac sollicitudin ante, quis pharetra sem. Pellentesque at mi eu elit dignissim imperdiet vitae vitae urna. Pellentesque sit amet velit id ipsum placerat bibendum. Nam eget orci mattis neque molestie ultricies. Duis ut enim at quam vulputate sodales. Fusce vehicula a mauris at facilisis. Nam placerat sed lectus quis rhoncus. Donec odio purus, pretium non tristique ac, placerat at massa. Mauris turpis urna, consequat sit amet finibus congue, fringilla in quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque sed pulvinar nulla, ut fringilla orci.
+## Prerequisites
+
+* A location with WiFi and some tables
+* Attendees should bring their Laptops (or Desktops and Monitor and Cables and keyboard and Mouse and … --- Well, a Laptop is easier)
+* Everyone will need a working environment to write tests in. Have a look at the [resources-Page](resources)
+
+## On the event
+
+* Gather, decide whether your group wants to write tests for one specific extension/package/function or each attendee srites tests for whatever they feel comfortable with
+* Write tests
+* Commit the tests.
