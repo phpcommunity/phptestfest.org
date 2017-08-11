@@ -11,16 +11,14 @@ wooble:
     message: "Welcome to PHP TestFest!"
     class: right
 summary: >
-    PHP TestFest aims to improve the code coverage of the test suite for the PHP programming language and encourage PHP programmers to make core contributions.
+    PHP TestFest seeks to create more PHP core contributors by introducing PHP programmers to the PHP language test suite, teaching them how to write _phpt_ tests.
 ---
-
-In 2008, a group of contributors from the [PHP-QA](https://qa.php.net/) team met at the PHP Quebec conference to [finalize plans for a PHP TestFest](http://news.php.net/php.qa/64083). When [announced](http://news.php.net/php.qa/64129), Lukas Kahwe Smith described it as "an event that aims at improving the code coverage of the test suite for the PHP language itself." PHP TestFest was a global success, with [many user groups from around the world](https://wiki.php.net/qa/testfest-2009) participating to help improve the code coverage of the PHP language.
-
-Over the years, PHP TestFest has been instrumental in raising the coverage of the PHP language [to almost 75%](http://gcov.php.net/), but there are still [many parts](http://gcov.php.net/PHP_7_2/lcov_html/) of the language [left to be tested](http://gcov.php.net/viewer.php?version=PHP_7_2&func=tested_functions) and many tests that [can be improved](http://gcov.php.net/viewer.php?version=PHP_7_2&func=tests). For the last few years, however, there has not been a globally-organized PHP TestFest event, and many newcomers to the PHP language and its community are unaware of their ability to contribute to the language core through writing tests. In 2017, we're changing that.
 
 ## PHP TestFest Is Back!
 
-PHP TestFest aims to improve the code coverage of the test suite for the PHP programming language and encourage PHP programmers to make core contributions. From September through December, 2017, groups from around the world will meet physically or virtually to learn how to write and contribute _phpt_ tests. You don't have to be a C genius—in fact, you don't even need to know C at all to contribute.[^phpcore] If you can write a few lines of PHP, you can write a _phpt_ test.
+PHP TestFest seeks to create more PHP core contributors by introducing PHP programmers to the PHP language test suite, teaching them how to write _phpt_ tests. We do this by using our relationships with PHP user groups to host PHP TestFest events around the world.
+
+From September through December, 2017, groups worldwide will meet physically or virtually to learn how to write and contribute _phpt_ tests. You don't have to be a C genius—in fact, you don't need to know C at all to contribute.[^phpcore] If you can write a few lines of PHP, you can write a _phpt_ test.
 
 Participation through [local user groups](/groups/2017) is encouraged but not required. If you don't have a local user group and you'd like to put together a group of friends or co-workers to write and contribute _phpt_ tests, please feel free to sign up and take part. Here's how:
 
@@ -53,17 +51,18 @@ Participation through [local user groups](/groups/2017) is encouraged but not re
 
 ## Win Prizes!
 
-PHP TestFest wouldn't be complete without prizes. We're still working out the details, so we'll announce prizes and how to win them soon. Here are a few ideas of the type of categories for which we'll be handing out awards (subject to change):
+PHP TestFest wouldn't be complete without prizes. We're still working out the details, so we'll announce prizes and how to win them soon. Here are a few ideas of the type of categories for which we'll be handing out prizes (subject to change):
 
-* Person who has the most tests accepted into the PHP core (not necessarily new contributors).
-* New contributor who has the most tests accepted into the PHP core (never having contributed prior to September 2017).
-* Group who has the most individual contributors with at least one test accepted into the PHP core (not necessarily new contributors).
-* Group who has the most new individual contributors with at least one test accepted into the PHP core (contributors who have never contributed prior to September 2017).
-* General prize raffle including all PHP TestFest participants.
+* Individual with the most _good_ test submissions.
+* User group with the most unique individual test submitters who have submitted at least one _good_ test submission.
+* Each individual who submits at least one _good_ test submission who has **never** contributed to core prior to September 2017.
+* General prize raffle including all PHP TestFest participants who have submitted at least one _good_ test submission (each submission counts as a raffle entry).
 
-Stay tuned for more details on prizes. We'll announce prizes, sponsors, and details on how to submit your information for inclusion in the awards and raffle. If your organization/company is interested in offering its products, services, or swag as prizes, let us know by sending email to <sponsors@phptestfest.org>.
+Stay tuned for more details on prizes and a definition of what _good_ means.
 
-Awards and raffle winners will be announced in January, 2018. All contributions for consideration must be made between 00:00:00 UTC on 1 September and 23:59:59 UTC on 31 December, 2017.
+We'll soon announce prizes, sponsors, and details on how to submit your information for inclusion in the prizes and raffle. If your organization/company is interested in offering its products, services, or swag as prizes, let us know by sending email to <sponsors@phptestfest.org>.
+
+Prizes and raffle winners will be announced in January, 2018. All contributions for consideration must be made between 00:00:00 UTC on 1 September and 23:59:59 UTC on 31 December, 2017.
 
 ## How It Works
 
@@ -74,6 +73,10 @@ We still have a lot of details to work out. We will need to develop a way to tra
 ## Who's Behind This?
 
 PHP TestFest is not new. It has a long history, going back [nearly ten years](https://wiki.php.net/qa/testfest); we stand on the shoulders of giants. Many have devoted a substantial amount of time to organizing and running previous PHP TestFest events, a few of whom are [Lukas Kahwe Smith](https://twitter.com/lsmith), [Zoë Slattery](http://zoah.co.uk/), and [Sebastian Schürmann](http://sebs.github.io/).
+
+In 2008, a group of contributors from the [PHP-QA](https://qa.php.net/) team met at the PHP Québec conference to [finalize plans for a PHP TestFest](http://news.php.net/php.qa/64083). When [announced](http://news.php.net/php.qa/64129), Lukas Kahwe Smith described it as "an event that aims at improving the code coverage of the test suite for the PHP language itself." PHP TestFest was a global success, with [many user groups from around the world](https://wiki.php.net/qa/testfest-2009) participating to help improve the code coverage of the PHP language. But more than that, _**many programmers became PHP core contributors**_ through PHP TestFest.
+
+Over the years, PHP TestFest has been instrumental in raising the coverage of the PHP language [to almost 75%](http://gcov.php.net/), but there are still [many parts](http://gcov.php.net/PHP_7_2/lcov_html/) of the language [left to be tested](http://gcov.php.net/viewer.php?version=PHP_7_2&func=tested_functions) and many tests that [can be improved](http://gcov.php.net/viewer.php?version=PHP_7_2&func=tests). For the last few years, however, there has not been a globally-organized PHP TestFest event, and many newcomers to the PHP language and its community are unaware of their ability to contribute to the language core through writing tests.
 
 In 2017, [Ben Ramsey](https://benramsey.com/) has taken up the PHP TestFest torch to introduce a new generation of PHP programmers to _phpt_ tests and other ways of contributing to the PHP core.
 
