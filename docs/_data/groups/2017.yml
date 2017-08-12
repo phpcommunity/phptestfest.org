@@ -25,6 +25,17 @@
     - name: Chris Spruck
       email: chris@atlantaphp.org
 
+- name: Chicago PHP UG
+  location: Chicago, IL, USA
+  website: https://www.meetup.com/Chicago-PHP-User-Group/
+  meetup: https://www.meetup.com/Chicago-PHP-User-Group/
+  twitter: https://twitter.com/ChiPHPUG
+  contacts:
+    - name: Sammy Kaye Powers
+      email: message through Meetup
+    - name: Nick Escobedo
+      email: message through Meetup
+
 - name: GrUSP
   location: Italy
   website: http://www.grusp.org
