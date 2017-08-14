@@ -36,6 +36,15 @@
     - name: Nick Escobedo
       email: message through Meetup
 
+- name: ColumbusPHP
+  location: Columbus, OH, USA
+  website: http://columbusphp.org
+  meetup: https://www.meetup.com/phpphp/
+  twitter: https://twitter.com/ColumbusPHP
+  contacts:
+    - name: Bill Condo
+      email: message through Meetup
+
 - name: GrUSP
   location: Italy
   website: http://www.grusp.org
