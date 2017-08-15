@@ -53,6 +53,14 @@
     - name: Matteo Beccati
       email: mbeccati@php.net
 
+- name: IndyPHP
+  location: Indianapolis, IN, USA
+  website: http://indyphp.com
+  meetup: https://www.meetup.com/indyphp
+  contacts:
+    - name: Ben Harold
+      email: benharold@mac.com
+
 - name: İstanbul PHP
   location: İstanbul, Turkey
   website: https://www.meetup.com/IstanbulPHP
