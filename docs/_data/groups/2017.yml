@@ -265,3 +265,13 @@
   contacts:
     - name: Mark Niebergall
       email: mbniebergall@gmail.com
+
+- name: PHP-WVL & Ghent PHP
+  location: Ghent, Belgium
+  website: http://php.gent
+  meetup: https://www.meetup.com/php-wvl/
+  twitter: https://twitter.com/phpwvl
+  contacts:
+    - name: Jachim Coudenys
+      email: jachim@php-wvl.be
+
