@@ -152,6 +152,15 @@
     - name: PHP Vegas Team
       email: team@phpvegas.com
 
+- name: PHP-WVL & Ghent PHP
+  location: Ghent, Belgium
+  website: http://php.gent
+  meetup: https://www.meetup.com/php-wvl/
+  twitter: https://twitter.com/phpwvl
+  contacts:
+    - name: Jachim Coudenys
+      email: jachim@php-wvl.be
+
 - name: PHPDublin
   location: Dublin, Ireland
   website: http://phpdublin.com/
