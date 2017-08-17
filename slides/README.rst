@@ -14,7 +14,7 @@ other features that make it a bit more expressive. The Sphinx project has a
 great `primer on how to write reStructuredText`_. It's easy to use.
 
 We use `Hovercraft!`_ to convert this mark-up into presentatable HTML. Under the
-hood, Hovercraft! uses `impress.js`_ to create beautful presenations.
+hood, Hovercraft! uses `impress.js`_ to create beautful presentations.
 Hovercraft! gives us the ability to easily accept contributions and track
 changes in a version control system. It's just plain text, and we like that.
 
@@ -27,7 +27,7 @@ preview):
 
     docker run -it --rm -p "9000:9000" -v $PWD:/presentation phpcommunity/hovercraft presentation-folder/presentation.rst
 
-Now, open http://localhost:9000 in your web browser, and you click through the
+Now, open http://localhost:9000 in your web browser and click through the
 slides! In the web browser, type "h" for the help console.
 
 That's all there is to it. Have fun!
