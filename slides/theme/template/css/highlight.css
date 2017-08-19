@@ -1,3 +1,4 @@
+/* Solarized Light */
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #93a1a1; font-style: italic } /* Comment */
 .highlight .err { color: #dc322f } /* Error */
@@ -6,7 +7,7 @@
 .highlight .l { color: #657b83 } /* Literal */
 .highlight .n { color: #586e75 } /* Name */
 .highlight .o { color: #657b83 } /* Operator */
-.highlight .x { color: #657b83 } /* Other */
+.highlight .x { color: #373b3e } /* Other */
 .highlight .p { color: #657b83 } /* Punctuation */
 .highlight .ch { color: #93a1a1; font-style: italic } /* Comment.Hashbang */
 .highlight .cm { color: #93a1a1; font-style: italic } /* Comment.Multiline */
