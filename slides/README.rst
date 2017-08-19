@@ -20,11 +20,13 @@ changes in a version control system. It's just plain text, and we like that.
 
 The easiest way to run and preview these presentations using Hovercraft! is
 to use Docker_. From the ``slides/`` directory, run the following (replacing
-``presentation-name`` with the name of the presentation you wish to preview):
+``presentation-name`` with the name of the presentation you wish to preview).
+This command will launch a Docker container, allowing you to preview the
+presentation.
 
 .. code:: shell
 
-    docker run -it --rm -p "9000:9000" -v $PWD:/presentation phpcommunity/hovercraft presentation-name.rst
+    ./present presentation-name.rst
 
 Now, open http://localhost:9000 in your web browser and click through the
 slides! In the web browser, type "h" for the help console.
