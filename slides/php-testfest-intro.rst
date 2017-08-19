@@ -2,11 +2,9 @@
 :author: Ben Ramsey
 :js-header: theme/presentation.js
 :css: theme/fonts.css
-:css: theme/syntax.css
 :css: theme/presentation.css
 :css: assets/php-testfest-intro/php-testfest-intro.css
 :skip-help: false
-:data-scale: 1.5
 
 Welcome! This is the "Introduction to PHP TestFest" presentation.
 
