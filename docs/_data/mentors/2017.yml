@@ -57,5 +57,5 @@
     forRemote: true
     forTravel: false
   groups:
-   - "[Magento Community Engineering Team] (https://github.com/magento-engcom)"
-   - "[Firegento] (https://firegento.com)"
+   - "[Magento Community Engineering Team](https://github.com/magento-engcom)"
+   - "[Firegento](https://firegento.com)"
