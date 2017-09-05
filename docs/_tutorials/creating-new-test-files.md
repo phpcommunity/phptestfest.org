@@ -105,7 +105,7 @@ var_dump(strtr("# hi all, I said hello world! #", $trans));
 string(32) "# hello All, I sAid hi planet! #"
 ```
 
-As you can see, the file is divided into several sections. The `TEST` section holds a one line title of the phpt test. This should be a simple description and shouldn't ever excede one line. If you need to write more explanation, add comments in the body of the test case. The phpt file's name is used when generating a `.php` file. The `FILE` section is used as the body of the `.php` file, so don't forget to open and close your PHP tags. The `EXPECT` section is the part used as a comparison to see if the test passes. It is a good idea to generate output with `var_dump()` calls.
+As you can see, the file is divided into several sections. The `TEST` section holds a one line title of the phpt test. This should be a simple description and shouldn't ever exceed one line. If you need to write more explanation, add comments in the body of the test case. The phpt file's name is used when generating a `.php` file. The `FILE` section is used as the body of the `.php` file, so don't forget to open and close your PHP tags. The `EXPECT` section is the part used as a comparison to see if the test passes. It is a good idea to generate output with `var_dump()` calls.
 
 ### PHPT structure details
 
