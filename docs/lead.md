@@ -24,6 +24,6 @@ What are the important things you shouldn't miss when you want to organize a Tes
 
 ## On the event
 
-* Gather, decide whether your group wants to write tests for one specific extension/package/function or each attendee srites tests for whatever they feel comfortable with
+* Gather, decide whether your group wants to write tests for one specific extension/package/function or each attendee writes tests for whatever they feel comfortable with
 * Write tests
 * Commit the tests.
