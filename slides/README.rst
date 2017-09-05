@@ -13,8 +13,8 @@ mark-up language. reStructuredText is similar to Markdown but has a variety of
 other features that make it a bit more expressive. The Sphinx project has a
 great `primer on how to write reStructuredText`_. It's easy to use.
 
-We use `Hovercraft!`_ to convert this mark-up into presentatable HTML. Under the
-hood, Hovercraft! uses `impress.js`_ to create beautful presentations.
+We use `Hovercraft!`_ to convert this mark-up into presentable HTML. Under the
+hood, Hovercraft! uses `impress.js`_ to create beautiful presentations.
 Hovercraft! gives us the ability to easily accept contributions and track
 changes in a version control system. It's just plain text, and we like that.
 
