@@ -143,6 +143,13 @@
     - name: Gabriel Somoza
       email: gabriel@strategery.io
 
+- name: PHP Varna
+  location: Varna, Bulgaria
+  meetup: https://www.meetup.com/phpvarna/
+  twitter: https://twitter.com/phpvarna
+  contacts:
+    - name: Boyan Yordanov
+
 - name: PHP Vegas
   location: Las Vegas, NV USA
   website: http://www.phpvegas.com/
