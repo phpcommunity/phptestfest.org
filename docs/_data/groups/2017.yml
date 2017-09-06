@@ -246,6 +246,19 @@
     - name: Luiz Felipe de Oliva Limeira
       email: lflimeira02@gmail.com
 
+- name: PHPUG Frankfurt
+  location: Frankfurt, Germany
+  website: http://www.phpugffm.de/
+  github: https://github.com/PHP-Usergroup-FFM
+  twitter: https://twitter.com/phpugffm
+  contacts:
+    - name: Christian Nielebock
+      email: christian@phpugffm.de
+    - name: Stephan Hochdörfer
+      email: stephan@phpugffm.de
+    - name: Andreas Heigl
+      email: andreas@phpugffm.de
+
 - name: PHPUG Rheinhessen
   location: Mainz, Germany
   website: http://www.phpug-rheinhessen.de/
