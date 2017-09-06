@@ -30,17 +30,6 @@ Start PHPTesting!!!
 
 ## How to use it?
 
-### Create a git repository
-
-The `phpqa` tool expects you to be operating in the context of a `git`
-repository. So before continuing, you'll want to decide where you'll be storing
-your test files, and create a `git` repo in that directory.
-
-It is also important that you have a `phpt/` directory within that repo.
-By default, `phpqa` places tests that it generates in the `phpt/` directory and
-will throw an error if the directory does not exist. You can override this
-behavior as described below.
-
 ### To generate new PHPT test files
 
 The [generate-phpt][generate-phpt] tool wrapped by `docker-phpqa` is a developer tool 
