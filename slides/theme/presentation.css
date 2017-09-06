@@ -21,6 +21,11 @@ li {
     margin-bottom: 0.6em;
 }
 
+li > ul > li {
+    font-size: inherit;
+    margin-bottom: inherit;
+}
+
 li:before {
     content: "⦿";
     padding-right: 0.5em;
