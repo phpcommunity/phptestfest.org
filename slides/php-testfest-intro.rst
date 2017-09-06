@@ -77,10 +77,8 @@ And why should you care?
 ----
 
 
-This is another slide
-=====================
-
-Some text on the third slide.
+What Does A Test Look Like?
+===========================
 
 .. include:: assets/php-testfest-intro/example-01.phpt
     :code: php
