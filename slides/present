@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# Preview or build a presentation
+#
+# You will need Docker installed to use this command.
+#
+# To preview a presentation at <http://localhost:9000>:
+#
+#     ./present presentation-name.rst
+#
+# To build a presentation, storing the HTML to `folder-name`:
+#
+#     ./present presentation-name.rst folder-name
+#
+
+docker run -it --rm -p "9000:9000" -v "$PWD":/presentation phpcommunity/hovercraft -t theme/template/template.cfg "$@"

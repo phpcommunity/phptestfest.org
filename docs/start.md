@@ -24,12 +24,12 @@ Participation through [local user groups](/groups/2017) is encouraged but not re
 
 <div class="row">
     <div class="3u 6u(medium) 12u$(small)">
-        <h3><span class="icon fa-comments-o"></span>Google Group</h3>
-        <p>Sign up for the <a href="https://groups.google.com/a/phpcommunity.org/group/testfest/">Google Group</a>. Ask questions, help others, and lend your ideas to make PHP TestFest better.</p>
+        <h3><span class="icon fa-slack"></span>PHPC Slack</h3>
+        <p>For real-time chat, join us on PHPC Slack in <a href="https://phpcommunity.slack.com/messages/phptestfest">#phptestfest</a>. Don&rsquo;t forget to <a href="http://slack.phpcommunity.org">get your invitation to PHPC Slack</a>!</p>
     </div>
     <div class="3u 6u$(medium) 12u$(small)">
-        <h3><span class="icon fa-hashtag"></span>IRC</h3>
-        <p>For real-time chat, join us on Freenode IRC in <a href="https://kiwiirc.com/client/irc.freenode.net#phptestfest">#phptestfest</a>. There&rsquo;s always someone around willing to help.</p>
+        <h3><span class="icon fa-comments-o"></span>Google Group</h3>
+        <p>Sign up for the <a href="https://groups.google.com/a/phpcommunity.org/group/testfest/">Google Group</a>. Ask questions, help others, and lend your ideas to make PHP TestFest better.</p>
     </div>
     <div class="3u 6u(medium) 12u$(small)">
         <h3><span class="icon fa-twitter"></span>Twitter</h3>
