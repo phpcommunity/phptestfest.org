@@ -129,8 +129,8 @@ Let's Fork It!
 
   .. code:: bash
 
-     git clone copied-path-of-your-fork-of-phpfest-php-src
-     cd !$
+     git clone copied-path-of-your-fork-of-phptestfest-php-src
+     cd phptestfest-php-src
 
 ----
 
