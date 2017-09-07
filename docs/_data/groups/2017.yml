@@ -143,6 +143,13 @@
     - name: Gabriel Somoza
       email: gabriel@strategery.io
 
+- name: PHP Varna
+  location: Varna, Bulgaria
+  meetup: https://www.meetup.com/phpvarna/
+  twitter: https://twitter.com/phpvarna
+  contacts:
+    - name: Boyan Yordanov
+
 - name: PHP Vegas
   location: Las Vegas, NV USA
   website: http://www.phpvegas.com/
@@ -238,6 +245,19 @@
       email: rogerio@phpsp.org.br
     - name: Luiz Felipe de Oliva Limeira
       email: lflimeira02@gmail.com
+
+- name: PHPUG Frankfurt
+  location: Frankfurt, Germany
+  website: http://www.phpugffm.de/
+  github: https://github.com/PHP-Usergroup-FFM
+  twitter: https://twitter.com/phpugffm
+  contacts:
+    - name: Christian Nielebock
+      email: christian@phpugffm.de
+    - name: Stephan Hochdörfer
+      email: stephan@phpugffm.de
+    - name: Andreas Heigl
+      email: andreas@phpugffm.de
 
 - name: PHPUG Rheinhessen
   location: Mainz, Germany

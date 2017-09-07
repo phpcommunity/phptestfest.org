@@ -18,7 +18,7 @@ summary: >
 ---
 ## How to get it?
 
-1. You will **need** to have [docker][docker] installed on your machine.
+1. You will **need** to have [Docker][docker] installed on your machine.
 
 2. Run our installer:
 
@@ -59,14 +59,17 @@ If you want to see the help you can just use:
 phpqa generate -h
 ````
 
-If you want to create a *basic* PHPT test for the [`ucfirst` function][php-function-ucfirst]:
+If you want to create a *basic* PHPT test for [the `ucfirst` function][php-function-ucfirst]:
 
 ````bash
 phpqa generate -f ucfirst -b
 ````
 
-This will create a template PHPT file for the function ucfirst inside of your PHPT default folder. If you want to choose
-the PHPT directory where the files are generated you can pass if as the first argument of the generate command:
+This will create a template PHPT file for the function ucfirst inside of
+the `phpt/` directory.
+
+If you want to override the destination directory where the files are generated
+you can pass it as the first argument of the generate command:
 
 ````bash
 phpqa generate /path/to/phpt/dir -f ucfirst -b
