@@ -103,6 +103,19 @@
     - name: Jeremy Dee
       email: message through Meetup
 
+- name: Minnesota PHP UG
+  location: Bloomington, MN, USA
+  website: https://www.meetup.com/mnphp/
+  meetup: https://www.meetup.com/mnphp/
+  twitter: https://twitter.com/mnphp
+  contacts:
+    - name: Jonathan Sundquist
+      email: message through Meetup
+    - name: Edward Barnard
+      email: message through Meetup
+    - name: Mike Willbanks
+      email: message through Meetup
+
 - name: Nashville PHP
   location: Nashville, TN, USA
   website: http://nashvillephp.org
