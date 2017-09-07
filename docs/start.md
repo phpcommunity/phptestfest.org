@@ -25,7 +25,7 @@ Participation through [local user groups](/groups/2017) is encouraged but not re
 <div class="row">
     <div class="3u 6u(medium) 12u$(small)">
         <h3><span class="icon fa-slack"></span>PHPC Slack</h3>
-        <p>For real-time chat, join us on PHPC Slack in <a href="https://phpcommunity.slack.com/messages/phptestfest">#phptestfest</a>. Don&rsquo;t forget to <a href="http://slack.phpcommunity.org">get your invitation to PHPC Slack</a>!</p>
+        <p>For real-time chat, join us on <a href="http://slack.phpcommunity.org/">PHPC Slack</a> in <code>#phptestfest</code>. There&rsquo;s always someone there willing to help.</p>
     </div>
     <div class="3u 6u$(medium) 12u$(small)">
         <h3><span class="icon fa-comments-o"></span>Google Group</h3>

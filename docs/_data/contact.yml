@@ -9,7 +9,7 @@ social:
   slack:
     name: "#phptestfest on PHPC Slack"
     icon: fa-slack
-    url: https://phpcommunity.slack.com/messages/phptestfest
+    url: http://slack.phpcommunity.org/
     channel: phptestfest
 
   google:
