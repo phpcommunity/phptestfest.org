@@ -301,6 +301,17 @@
     - name: Massimiliano Arione
       email: garakkio@gmail.com
 
+- name: SDPHP
+  location: San Diego, CA, USA
+  website: http://www.sdphp.org
+  meetup: http://www.meetup.com/SanDiegoPHP
+  twitter: https://twitter.com/sdphp
+  contacts
+    - name: John Congdon
+      email: john@sdphp.org
+    - name: Eric Van Johnson
+      email: eric@sdphp.org
+
 - name: Utah PHP
   location: Lehi, UT, USA
   website: http://uphpu.org
