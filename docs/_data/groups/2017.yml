@@ -301,15 +301,6 @@
     - name: Massimiliano Arione
       email: garakkio@gmail.com
 
-- name: Utah PHP
-  location: Lehi, UT, USA
-  website: http://uphpu.org
-  meetup: http://www.meetup.com/Utah-PHP-User-Group
-  twitter: https://twitter.com/uphpu
-  contacts:
-    - name: Mark Niebergall
-      email: mbniebergall@gmail.com
-
 - name: SDPHP
   location: San Diego, CA, USA
   website: http://www.sdphp.org
@@ -320,3 +311,12 @@
       email: john@sdphp.org
     - name: Eric Van Johnson
       email: eric@sdphp.org
+
+- name: Utah PHP
+  location: Lehi, UT, USA
+  website: http://uphpu.org
+  meetup: http://www.meetup.com/Utah-PHP-User-Group
+  twitter: https://twitter.com/uphpu
+  contacts:
+    - name: Mark Niebergall
+      email: mbniebergall@gmail.com
