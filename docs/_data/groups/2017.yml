@@ -306,7 +306,7 @@
   website: http://www.sdphp.org
   meetup: http://www.meetup.com/SanDiegoPHP
   twitter: https://twitter.com/sdphp
-  contacts
+  contacts:
     - name: John Congdon
       email: john@sdphp.org
     - name: Eric Van Johnson
