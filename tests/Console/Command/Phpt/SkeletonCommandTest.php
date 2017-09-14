@@ -30,7 +30,6 @@ class SkeletonCommandTest extends TestCase
 
         $command = $application->find($this->commandName);
         $this->commandTester = new CommandTester($command);
-
     }
 
 
@@ -96,7 +95,4 @@ class SkeletonCommandTest extends TestCase
 
         $this->assertContains('foo - bar', $output);
     }
-
-
-
 }
