@@ -156,6 +156,24 @@
     - name: Gabriel Somoza
       email: gabriel@strategery.io
 
+- name: PHPNW
+  location: Manchester, UK
+  website: http://www.phpnw.org.uk/
+  twitter: https://twitter.com/phpnw
+  contacts:
+    - name: Jeremy Coates
+      email: jeremy@phpnw.org.uk
+    - name: Rick Ogden
+      email: rick@phpnw.org.uk
+
+- name: PHPNW17 Conference
+  location: Manchester, UK
+  website: http://conference.phpnw.org.uk/
+  twitter: https://twitter.com/phpnwConf
+  contacts:
+    - name: PHPNW Conference Team
+      email: conference@phpnw.org.uk
+
 - name: PHP Varna
   location: Varna, Bulgaria
   meetup: https://www.meetup.com/phpvarna/
