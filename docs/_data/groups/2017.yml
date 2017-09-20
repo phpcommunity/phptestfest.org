@@ -150,6 +150,17 @@
     - name: Cal Evans
       email: cal@nomadphp.com
 
+- name: PHPdx
+  location: Portland, OR, USA
+  website: https://www.phpdx.org
+  meetup: https://www.meetup.com/PDX-PHP/
+  twitter: https://twitter.com/phpdx
+  contacts:
+    - name: Alena Holligan
+      email: alena@holligan.us
+    - name: Korvin Szanto
+      email: korvinszanto@gmail.com
+
 - name: PHP Leuven
   location: Leuven, Belgium
   website: https://www.meetup.com/PHP-Leuven-Web-Innovation-Group/
