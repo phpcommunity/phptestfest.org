@@ -32,9 +32,7 @@
   twitter: https://twitter.com/ChiPHPUG
   contacts:
     - name: Sammy Kaye Powers
-      email: message through Meetup
     - name: Nick Escobedo
-      email: message through Meetup
 
 - name: ColumbusPHP
   location: Columbus, OH, USA
@@ -43,7 +41,6 @@
   twitter: https://twitter.com/ColumbusPHP
   contacts:
     - name: Bill Condo
-      email: message through Meetup
 
 - name: GrUSP
   location: Italy
@@ -99,9 +96,7 @@
   twitter: https://twitter.com/mkepug
   contacts:
     - name: Joel Clermont
-      email: message through Meetup
     - name: Jeremy Dee
-      email: message through Meetup
 
 - name: Minnesota PHP UG
   location: Bloomington, MN, USA
@@ -110,11 +105,8 @@
   twitter: https://twitter.com/mnphp
   contacts:
     - name: Jonathan Sundquist
-      email: message through Meetup
     - name: Edward Barnard
-      email: message through Meetup
     - name: Mike Willbanks
-      email: message through Meetup
 
 - name: Nashville PHP
   location: Nashville, TN, USA
