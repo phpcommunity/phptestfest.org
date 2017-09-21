@@ -282,6 +282,15 @@
     - name: Andreas Heigl
       email: andreas@phpugffm.de
 
+- name: PHPUG Münster
+  location: Münster, Germany
+  meetup: https://www.meetup.com/phpugms/
+  twitter: https://twitter.com/phpugms
+  contacts:
+    - name: Benjamin Cremer
+    - name: Timo Tewes
+    - name: Patrick Blom
+
 - name: PHPUG Rheinhessen
   location: Mainz, Germany
   website: http://www.phpug-rheinhessen.de/
