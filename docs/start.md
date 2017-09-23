@@ -37,7 +37,7 @@ Participation through [local user groups](/groups/2017) is encouraged but not re
     </div>
     <div class="3u$ 6u$(medium) 12u$(small)">
         <h3><span class="icon fa-github"></span>GitHub</h3>
-        <p>Contribute tools and tutorials to the <a href="https://github.com/phpcommunity/phptestfest.org">project on GitHub</a> to help us have a successful PHP TestFest.</p>
+        <p>Contribute tools and tutorials to the <a href="https://github.com/phpcommunity/phptestfest.org">phptestfest.org project on GitHub</a> to help us have a successful PHP TestFest.</p>
     </div>
     <div class="6u 12u$(small)">
         <h3><span class="icon fa-users"></span>Add Your Group</h3>
