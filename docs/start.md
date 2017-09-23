@@ -68,6 +68,10 @@ Prizes and raffle winners will be announced in January, 2018. All contributions 
 
 If you lead a group that is interested in participating, join the [Google Group](https://groups.google.com/a/phpcommunity.org/group/testfest/), [add your group to the list](/groups/2017/), and commit to hosting one or more PHP TestFest events from September through December. A good PHP TestFest event might include a kick-off meeting with information about PHP TestFest, a session on how to write and contribute _phpt_ tests, and a mini-hackathon for writing tests. Learn more about [leading a PHP TestFest event](/lead/).
 
+When you are ready to start hacking, fork the official [PHP TestFest php-src repo](https://github.com/phpcommunity/phptestfest-php-src) (**note:** not `php/php-src`). Volunteers from the PHP core team will help review and accept pull-requests on this repo. Also, only pull-requests submitted against `phpcommunit/phptestfest-php-src` will be counted as participating in PHP TestFest 2017.
+
+When you submit a pull-request, your group will earn Internet Points if you add a line to the pull-request in the following format: "User Group: name-of-group". See [PR 13](https://github.com/phpcommunity/phptestfest-php-src/pull/13) as an example.
+
 We still have a lot of details to work out. We will need to develop a way to track contributions and work with the PHP core team to help review and accept tests, so that they don't become inundated with pull requests. If you'd like to help, please join the [Google Group](https://groups.google.com/a/phpcommunity.org/group/testfest/). We'll update this section as more details emerge.
 
 ## Who's Behind This?
