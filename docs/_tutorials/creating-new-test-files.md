@@ -151,6 +151,8 @@ Another good check is to look at what lines of code in the PHP source your test 
 
 The next step is to get someone to review it. If it's short you can paste it into a note and send it to <php-qa@lists.php.net>. If the test is a bit too long for that then put it somewhere were people can download it ([pastebin](http://www.pastebin.ca/) is sometimes used). Appending tests to notes as files doesn't work well—so please don't do that. Your note to <php-qa@lists.php.net> should say what level of PHP you have tested it on and what platform(s) you've run it on. Someone from the PHP QA group will review your test and reply to you. They may ask for some changes or suggest better ways to do things, or they may commit it to PHP.
 
+> For PHP TestFest, you should clone the [phpcommunity/phptestfest.org](<https://github.com/phpcommunity/phptestfest.org) repository. Then submit a pull request with your tests. **Don't forget to include the name of your User Group or Event!**
+
 ### Writing Portable PHP Tests
 
 Writing portable tests can be hard if you don't have access to all the many platforms that PHP can run on. Do your best. If in doubt, don't disable a test. It is better that the test runs in as many environments as possible.
