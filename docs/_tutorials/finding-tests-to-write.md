@@ -28,5 +28,5 @@ You can find tests to write by:
 
 ## Extensions
 
-You shouldn't spend time writing tests for extensions which are deprecated or have been removed, like [ereg](https://php.net/ereg) or [mysql](https://php.net/manual/en/intro.mysql.php). If you're using a a pre-built testing environment like [docker-phpqa]({{ "/tutorials/phpqa-tutorial/" | absolute_url }}), some extensions which need tests are disabled. In this case, you'll need to setup a testing environment where you can enable extensions.
+You shouldn't spend time writing tests for extensions which are deprecated or have been removed, like [ereg](https://php.net/ereg) or [mysql](https://php.net/manual/en/intro.mysql.php). If you're using a pre-built testing environment like [docker-phpqa]({{ "/tutorials/phpqa-tutorial/" | absolute_url }}), some extensions which need tests are disabled. In this case, you'll need to setup a testing environment where you can enable extensions.
 
