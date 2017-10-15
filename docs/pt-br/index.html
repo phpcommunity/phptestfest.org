@@ -1,0 +1,101 @@
+---
+layout: base
+summary: >
+    Become a PHP core contributor! Join a PHP user group in person or online,
+    and PHP TestFest will show you how.
+keywords:
+  - PHP TestFest
+  - PHP
+  - TestFest
+  - test fest
+  - PHP user group
+  - PHP internals
+  - PHP core contributor
+  - testing
+  - prizes
+lang: pt
+---
+
+<section id="banner">
+    <div class="content">
+        <header>
+            <h1>Bem-vindo ao PHP&nbsp;TestFest</h1>
+            <p>Evoluindo o núcleo do PHP a cada teste</p>
+        </header>
+        <p>Você já teve vontade de contribuir com o <a href="https://php.net">PHP</a> mas teve receio de seus conhecimentos em <em>C</em> não fossem sufiecientes para o desafio? Bom, não tenha medo! Se você conhece PHP, você pode contribuir escrevendo testes. O PHP TestFest vai te mostrar como através do seu <a href="/pt/groups/2017/">grupo de usuários local</a>.</p>
+        <ul class="actions">
+            <li><a href="start/" class="button big">Leia mais</a></li>
+        </ul>
+    </div>
+    <span class="image object">
+        <img src="/images/wooble-brigade.jpg" alt="TestFest Wooble Brigade">
+    </span>
+</section>
+
+<section>
+    <header class="major">
+        <h2>Participe</h2>
+    </header>
+    <div class="features">
+        <article>
+            <span class="icon fa-users"></span>
+            <div class="content">
+                <h3>Participando de grupos</h3>
+                <p>Encontre uma grupo local que esteja participando do PHP TestFest, ou adicione o seu à lista.</p>
+                <p><a href="groups/{{ site.time | date: '%Y' }}" class="button">Encontre um grupo</a></p>
+            </div>
+        </article>
+        <article>
+            <span class="icon fa-map-o"></span>
+            <div class="content">
+                <h3>Organize um evento</h3>
+                <p>Interessado em organizar um evento e participar do PHP TestFest? Saiba como organizar um evento.</p>
+                <p><a href="lead/" class="button">Organize um TestFest</a></p>
+            </div>
+        </article>
+        <article>
+            <span class="icon fa-graduation-cap"></span>
+            <div class="content">
+                <h3>Seja um mentor</h3>
+                <p>Grupos participantes precisam de mentores para realizar um PHP TestFest de sucesso. Veja como você pode ajudar e adicionar um seu nome a lista.</p>
+                <p><a href="mentors/" class="button">Outros mentores</a></p>
+            </div>
+        </article>
+        <article>
+            <span class="icon fa-code"></span>
+            <div class="content">
+                <h3>Aprenda como escrever testes phpt</h3>
+                <p>Torne-se um contribuidor do núcleo da linguagem PHP escrevendo testes <em>phpt</em>. Estes tutoriais vão lhe mostrar como.</p>
+                <p><a href="tutorials/" class="button">Siga os tutoriais</a></p>
+            </div>
+        </article>
+    </div>
+</section>
+
+{% assign tutorials = site.tutorials | where:'lang',  page.lang | sort: 'date' %}
+
+<section>
+    <header class="major">
+        <h2>Tutoriais recentes</h2>
+    </header>
+    <div class="posts">
+        {% for tutorial in tutorials reversed limit:6 %}
+        <article>
+            {% if tutorial.image.url %}
+            <a href="{{ tutorial.url }}" class="image">
+                <img class="home" src="{{ tutorial.image.url }}" alt="{{ tutorial.image.alt }}">
+            </a>
+            {% else %}
+            <a href="{{ page.lang }}/{{ tutorial.url }}" class="image">
+                <img src="/theme-example/images/pic01.jpg" alt="">
+            </a>
+            {% endif %}
+            <h3>{{ tutorial.title | smartify }}</h3>
+            {% if tutorial.summary %}{{ tutorial.summary | markdownify }}{% else %}{{ tutorial.content | strip_html | truncatewords:25 | markdownify }}{% endif %}
+            <ul class="actions">
+                <li><a href="{{ tutorial.url }}" class="button">Mais</a></li>
+            </ul>
+        </article>
+        {% endfor %}
+    </div>
+</section>
