@@ -80,6 +80,14 @@
     - name: Eric Poe
       email: eric.poe@gmail.com
 
+- name: Kharkiv PHP
+  location: Kharkiv, Ukraine
+  contacts:
+    - name: Yulia Kostrikova
+      email: yuliakostrikova@gmail.com
+    - name: Yuriy Melnik
+      email: ymln@ymln.name
+
 - name: MemphisPHP
   location: Memphis, TN, USA
   website: http://memphisphp.org
@@ -339,3 +347,4 @@
   contacts:
     - name: Mark Niebergall
       email: mbniebergall@gmail.com
+
