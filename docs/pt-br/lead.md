@@ -20,7 +20,7 @@ Quais são os pontos importantes e que você não deve esquecer ao organizar um 
 
 * Um local com WiFi e algumas mesas
 * Os participantes devem levar seus notebooks (ou Desktops e monitor, cabos, teclado mouse e... --- Bom, um notebook é mais prático)
-* Todos irão precisar de um ambiente de trabalho para escrever os testes. Então dê uma olhada [aqui](/pt/resources).
+* Todos irão precisar de um ambiente de trabalho para escrever os testes. Então dê uma olhada [aqui](/pt-br/resources).
 
 ## Durante o evento
 

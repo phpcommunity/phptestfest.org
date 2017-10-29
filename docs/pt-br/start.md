@@ -21,7 +21,7 @@ O PHP TestFest busca criar mais contribuidores do núcleo do PHP introduzindo su
 
 De Setembro a Dezembro de 2017, grupos em todo o mundo se encontrarão pessoalmente ou online para aprender como contribuir e escrever testes _phpt_. Você não precisa ser um gênio em C. Na verdade você nem precisa saber C para contribuir.[^phpcore] Se você consegue escrever algumas linhas de PHP, consegue escrever um teste _phpt_.
 
-Participar de [grupos locais](/pt/groups/2017) é recomendado mas não obrigatório. Se você não faz parte de um grupo local mas gostaria de reunir amigos ou colegas de trabalho para escrever testes e contribuir, por favor, sinta-se a vontade e faça parte. Veja como:
+Participar de [grupos locais](/pt-br/groups/2017) é recomendado mas não obrigatório. Se você não faz parte de um grupo local mas gostaria de reunir amigos ou colegas de trabalho para escrever testes e contribuir, por favor, sinta-se a vontade e faça parte. Veja como:
 
 <div class="row">
     <div class="3u 6u(medium) 12u$(small)">
@@ -42,7 +42,7 @@ Participar de [grupos locais](/pt/groups/2017) é recomendado mas não obrigató
     </div>
     <div class="6u 12u$(small)">
         <h3><span class="icon fa-users"></span>Inclua Seu Grupo</h3>
-        <p>Se você gostaria de incluir seu grupo no PHP TestFest 2017, <a href="https://github.com/phpcommunity/phptestfest.org/edit/master/docs/_data/groups/2017.yml">adicione a lista</a>. Então entre para <a href="https://groups.google.com/a/phpcommunity.org/group/testfest/">grupo Goole</a>, e <a href="/pt/lead/">saiba como organizar o evento</a>.</p>
+        <p>Se você gostaria de incluir seu grupo no PHP TestFest 2017, <a href="https://github.com/phpcommunity/phptestfest.org/edit/master/docs/_data/groups/2017.yml">adicione a lista</a>. Então entre para <a href="https://groups.google.com/a/phpcommunity.org/group/testfest/">grupo Goole</a>, e <a href="/pt-br/lead/">saiba como organizar o evento</a>.</p>
     </div>
     <div class="6u$ 12u$(small)">
         <h3><span class="icon fa-graduation-cap"></span>Seja um mentor</h3>
@@ -67,7 +67,7 @@ Os ganhadores dos prêmios e sorteios serão anunciados em janeiro de 2018. Para
 
 ## Como funciona?
 
-Se você e sua comunidade estão interessados em participar, entre para o [grupo do Google](https://groups.google.com/a/phpcommunity.org/group/testfest/), [adicione seu grupo a lista](/pt/groups/2017/), e se prontifiquem a sediar um ou mais PHP TestFests de setembro a dezembro. Um bom PHP TestFest deve incluir uma reunião inicial com todas as informações sobre o evento, uma sessão mostrando como contribuir e escrever testes com _phpt_, e uma mini maratona hacker (hackathon) para escrever os testes. Leia mais sobre (organizar um PHP TestFest)[/pt/lead].
+Se você e sua comunidade estão interessados em participar, entre para o [grupo do Google](https://groups.google.com/a/phpcommunity.org/group/testfest/), [adicione seu grupo a lista](/pt-br/groups/2017/), e se prontifiquem a sediar um ou mais PHP TestFests de setembro a dezembro. Um bom PHP TestFest deve incluir uma reunião inicial com todas as informações sobre o evento, uma sessão mostrando como contribuir e escrever testes com _phpt_, e uma mini maratona hacker (hackathon) para escrever os testes. Leia mais sobre (organizar um PHP TestFest)[/pt-br/lead].
 
 Ainda temos muito o que trabalhar. Precisamos desenvolver uma maneira de acompanhar as contribuições e trabalhar com o time do núcleo do PHP para nos ajudar a revisar e aceitar os testes, para que eles não sejam sobrecarregados com muitos _pull requests_. Se você gostaria de ajudar, entre no [grupo do Google](https://groups.google.com/a/phpcommunity.org/group/testfest/). Vamos atualizar esse texto sempre que novas informações surgirem.
 
