@@ -12,11 +12,11 @@ summary: >
 
 <hr class="major">
 
-{% assign tutorials = site.tutorials | sort: 'date' %}
+{% assign pt-br_tutorials = site.pt-br_tutorials | sort: 'date' %}
 
 <section>
     <div class="posts">
-        {% for tutorial in tutorials reversed %}
+        {% for tutorial in pt-br_tutorials reversed %}
         <article>
             {% if tutorial.image.url %}
             <a href="{{ tutorial.url }}" class="image">
@@ -36,3 +36,7 @@ summary: >
         {% endfor %}
     </div>
 </section>
+
+<hr class="major">
+
+<p>Veja <a href="/tutorials/">todos os tutoriais</a> em inglês.</p>

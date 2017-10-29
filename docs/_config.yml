@@ -15,6 +15,10 @@ collections:
     output: true
     permalink: /:collection/:path/
     name: Tutorials
+  pt-br_tutorials:
+    output: true
+    permalink: /pt-br/tutorials/:path/
+    name: Tutoriais
 
 # Build settings
 markdown: kramdown

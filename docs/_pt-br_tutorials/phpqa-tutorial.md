@@ -15,7 +15,7 @@ image:
 summary: >
     Ferramentas docker para criar e rodar testes do [PHP-SRC](https://github.com/php/php-src) facilmente. A intenção dessa biblioteca é ajudar qualquer desenvolvedor
     PHP que for criar testes PHPT para a engine da linguagem e suas extensões core.
-lang: pt
+lang: pt-br
 ---
 ## Como instalar?
 

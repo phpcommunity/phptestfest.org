@@ -72,14 +72,14 @@ lang: pt
     </div>
 </section>
 
-{% assign tutorials = site.tutorials | where:'lang',  page.lang | sort: 'date' %}
+{% assign pt-br_tutorials = site.pt-br_tutorials | sort: 'date' %}
 
 <section>
     <header class="major">
         <h2>Tutoriais recentes</h2>
     </header>
     <div class="posts">
-        {% for tutorial in tutorials reversed limit:6 %}
+        {% for tutorial in pt-br_tutorials reversed limit:6 %}
         <article>
             {% if tutorial.image.url %}
             <a href="{{ tutorial.url }}" class="image">
