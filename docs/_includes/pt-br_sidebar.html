@@ -1,6 +1,3 @@
-{% if page.url contains 'pt-br' %}
-    {% include pt-br_sidebar.html %}
-{% else %}
 <div id="sidebar">
     <div class="inner">
 
@@ -16,12 +13,12 @@
                         <li><a href="/pt-br/">🇧🇷 Português do Brasil</a></li>
                     </ul>
                 </li>
-                <li><a href="/start/">Start Here!</a></li>
-                <li><a href="/lead/">Lead an Event</a></li>
-                <li><a href="/mentors/">Be a Mentor</a></li>
-                <li><a href="/tutorials/">Tutorials</a></li>
-                <li><a href="/groups/{{ site.time | date: '%Y' }}/">Participating Groups</a></li>
-                <li><a href="/resources/">More Resources</a></li>
+                <li><a href="/pt-br/start/">Comece aqui!</a></li>
+                <li><a href="/pt-br/lead/">Organize um evento</a></li>
+                <li><a href="/pt-br/mentors/">Seja um mentor</a></li>
+                <li><a href="/pt-br/tutorials/">Tutoriais</a></li>
+                <li><a href="/pt-br/groups/{{ site.time | date: '%Y' }}/">Grupos participantes</a></li>
+                <li><a href="/pt-br/resources/">Mais recursos</a></li>
                 <!--
                 <li>
                     <span class="opener">Accordion Menu Example</span>
@@ -37,9 +34,9 @@
 
         <section>
             <header class="major">
-                <h2>Join Us</h2>
+                <h2>Junte-se a nós</h2>
             </header>
-            <p>We&rsquo;d love for you to join the PHP TestFest. For questions, email us. To get involved, join our Google Group or find us on PHPC Slack. We hope to see you soon!</p>
+            <p>Nós adoraríamos que você se juntasse ao PHP TestFest. Para tirar dúvidas, mande-nos um email. Para se envolver, entre no nosso Google Group ou nos encontre no Slack do PHPC. Esperamos te ver em breve!</p>
             <ul class="contact">
                 <li class="{{ site.data.contact.social.slack.icon }}"><a href="{{ site.data.contact.social.slack.url }}">{{ site.data.contact.social.slack.name }}</a></li>
                 <li class="{{ site.data.contact.social.google.icon }}"><a href="{{ site.data.contact.social.google.url }}">{{ site.data.contact.social.google.name }}</a></li>
@@ -49,9 +46,9 @@
 
         <section>
             <header class="major">
-                <h2>Official Hashtag</h2>
+                <h2>Hashtag oficial</h2>
             </header>
-            <p>Everywhere you talk about PHP TestFest, from Twitter to Facebook to Instagram and more, please be sure to use the official hashtag, so others can follow along:</p>
+            <p>Não importa onde você falar sobre o PHP TestFest, seja no Twitter, Facebook, Instagram ou qualquer outro lugar, tente usar a hashtag oficial, assim outras pessoas conseguirão acompanhar:</p>
             <p><code>#phptestfest</code></p>
         </section>
 
@@ -82,4 +79,3 @@
 
     </div>
 </div>
-{% endif %}
