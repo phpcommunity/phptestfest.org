@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mais informações
-permalink: pt/resources/index.html
+permalink: pt-br/resources/index.html
 summary: >
     Aqui estão alguns links úteis de informações sobre como escrever e contribuir com testes phpt.
 ---

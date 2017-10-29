@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Seja um mentor
-permalink: pt/mentors/index.html
+permalink: pt-br/mentors/index.html
 wooble:
     message: "Mentore um grupo!"
     class: right

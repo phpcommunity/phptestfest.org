@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Organize um evento PHP TestFest
-permalink: pt/lead/index.html
+permalink: pt-br/lead/index.html
 wooble:
     message: "Organize um evento!"
     class: right

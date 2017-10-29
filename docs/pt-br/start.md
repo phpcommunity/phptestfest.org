@@ -2,7 +2,7 @@
 layout: page
 lang: pt
 title: Começando
-permalink: pt/start/index.html
+permalink: pt-br/start/index.html
 image:
     url: /images/photos/rawpixel-com-296621.jpg
     alt: Trabalhando juntos
