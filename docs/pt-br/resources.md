@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Mais informações
+title: Mais recursos
 permalink: pt-br/resources/index.html
 summary: >
-    Aqui estão alguns links úteis de informações sobre como escrever e contribuir com testes phpt.
+    Aqui estão alguns links úteis com informações sobre como escrever testes phpt e contribuir com a linguagem de programação PHP.
+lang: pt-br
 ---
 
-Aqui estão alguns links úteis de informações sobre como escrever e contribuir com testes phpt.
+Aqui estão alguns links úteis com informações sobre como escrever testes phpt e contribuir com a linguagem de programação PHP.
 
 ---
 {:.major}

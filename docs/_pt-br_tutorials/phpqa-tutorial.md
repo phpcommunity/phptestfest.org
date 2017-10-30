@@ -13,8 +13,8 @@ image:
     title: Thousand Colors por Lucas Gallone
     credit: Fotografado por [Lucas Gallone](https://unsplash.com/photos/PVw_vtpCGaM).
 summary: >
-    Ferramentas docker para criar e rodar testes do [PHP-SRC](https://github.com/php/php-src) facilmente. A intenção dessa biblioteca é ajudar qualquer desenvolvedor
-    PHP que for criar testes PHPT para a engine da linguagem e suas extensões core.
+    Ferramentas docker para criação e execução dos testes no [PHP-SRC](https://github.com/php/php-src) facilmente. A intenção desta biblioteca é ajudar qualquer desenvolvedor
+    PHP que for criar testes PHPT para o motor da linguagem e suas extensões principais.
 lang: pt-br
 ---
 ## Como instalar?
@@ -33,7 +33,7 @@ Comece a PHPTestar!!!
 
 ### Para criar novos arquivos de teste PHPT
 
-A ferramenta [generate-phpt][generate-phpt] embutida no `docker-phpqa` é uma ferramenta de desenvolvimento
+O comando [generate-phpt][generate-phpt], embutido no `docker-phpqa`, é uma ferramenta de desenvolvimento
 [que existe dentro do repositório PHP-SRC][generate-phpt]. Sua utilização é bem simples e tem a intenção de inicializar a criação
 do PHPT.
 
@@ -54,7 +54,7 @@ Where:
 -h ............................... Print this message
 ````
 
-Se você quiser visualizar a ajuda pode fazer assim:
+Se você quiser visualizar a ajuda, pode executar:
 
 ````bash
 phpqa generate -h
@@ -73,7 +73,7 @@ o diretório PHPT onde os arquivos serão criados, você pode passá-lo como o p
 phpqa generate /path/to/phpt/dir -f ucfirst -b
 ````
 
-### Como rodar seus testes criados em múltiplas versões do PHP
+### Como rodar os testes que criou em múltiplas versões do PHP
 
 1. Escreva um teste em **qualquer pasta**;
 2. Execute o comando `phpqa` passando como argumentos o caminho do arquivo (relativo ou absoluto) e a versão do PHP na qual o teste será rodado (72, 71, 70, 56, 55):
