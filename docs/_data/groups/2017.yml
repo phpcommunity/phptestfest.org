@@ -80,6 +80,25 @@
     - name: Eric Poe
       email: eric.poe@gmail.com
 
+- name: Kharkiv PHP
+  location: Kharkiv, Ukraine
+  contacts:
+    - name: Yulia Kostrikova
+      email: yuliakostrikova@gmail.com
+    - name: Yuriy Melnik
+      email: ymln@ymln.name
+
+- name: Madison PHP
+  location: Madison, WI, USA
+  website: http://www.madisonphpconference.com
+  meetup: http://www.madisonphp.com
+  twitter: https://twitter.com/madisonphp
+  contacts:
+    - name: Beth Tucker Long
+      email: beth at treelinedesign dot com
+    - name: Clinton Otte-Ford
+      email: ford dot clinton at gmail dot com
+
 - name: MemphisPHP
   location: Memphis, TN, USA
   website: http://memphisphp.org
@@ -130,6 +149,17 @@
   contacts:
     - name: Cal Evans
       email: cal@nomadphp.com
+
+- name: PHPdx
+  location: Portland, OR, USA
+  website: https://www.phpdx.org
+  meetup: https://www.meetup.com/PDX-PHP/
+  twitter: https://twitter.com/phpdx
+  contacts:
+    - name: Alena Holligan
+      email: alena@holligan.us
+    - name: Korvin Szanto
+      email: korvinszanto@gmail.com
 
 - name: PHP Leuven
   location: Leuven, Belgium
@@ -339,3 +369,4 @@
   contacts:
     - name: Mark Niebergall
       email: mbniebergall@gmail.com
+
