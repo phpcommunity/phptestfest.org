@@ -80,6 +80,14 @@
     - name: Eric Poe
       email: eric.poe@gmail.com
 
+- name: Kharkiv PHP
+  location: Kharkiv, Ukraine
+  contacts:
+    - name: Yulia Kostrikova
+      email: yuliakostrikova@gmail.com
+    - name: Yuriy Melnik
+      email: ymln@ymln.name
+
 - name: Madison PHP
   location: Madison, WI, USA
   website: http://www.madisonphpconference.com
@@ -90,8 +98,6 @@
       email: beth at treelinedesign dot com
     - name: Clinton Otte-Ford
       email: ford dot clinton at gmail dot com
-
-
 
 - name: MemphisPHP
   location: Memphis, TN, USA
@@ -352,3 +358,4 @@
   contacts:
     - name: Mark Niebergall
       email: mbniebergall@gmail.com
+
