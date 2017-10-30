@@ -12,6 +12,7 @@
         {% capture shareImage %}https://phptestfest.org{% if page.image.url %}{{ page.image.url }}{% else %}/images/wooble-brigade.jpg{% endif %}{% endcapture %}
 
         <title>{{ pageTitle }}</title>
+        {% if page.redirect %}<meta http-equiv="Refresh" content="0; url={{ page.redirect }}">{% endif %}
         <meta name="description" content="{{ description }}">
         {% if page.keywords %}<meta name="keywords" content="{{ page.keywords | join: ', ' }}">{% endif %}
 

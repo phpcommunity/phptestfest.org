@@ -1,0 +1,42 @@
+#start {
+    text-align: left;
+
+    /* Photo by Adam Whitlock,
+     * <https://unsplash.com/photos/I9j8Rk-JYFM> */
+    background-image: url('adam-whitlock-270558.jpg');
+    background-size: 100% 100%, cover;
+}
+
+#start h1,
+#start h2
+{
+    color: white;
+    text-shadow: 0.05em 0.05em 0.05em rgba(61, 68, 73, 0.5);
+}
+
+#start .inner-step {
+    top: 25%;
+    transform: translateY(-50%);
+}
+
+#what-is-it {
+    /* Photo by Robert Katzki,
+     * <https://unsplash.com/photos/fyHkeWGOpHM> */
+    background-image: url('robert-katzki-119134.jpg');
+    background-size: 100% 100%, cover;
+}
+
+
+#what-is-it h1,
+#what-is-it h2
+{
+    color: white;
+}
+
+#what-is-it h1 {
+    border-bottom-color: white;
+}
+
+#intro {
+    background: white no-repeat bottom 3em right 4em/13em url('wooble-wave.svg');
+}

@@ -3,4 +3,5 @@
 /.travis.yml      export-ignore
 /docs             export-ignore
 /phpunit.xml.dist export-ignore
+/slides/*         export-ignore linguist-documentation
 /tests            export-ignore

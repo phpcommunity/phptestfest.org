@@ -105,7 +105,7 @@ var_dump(strtr("# hi all, I said hello world! #", $trans));
 string(32) "# hello All, I sAid hi planet! #"
 ```
 
-As you can see, the file is divided into several sections. The `TEST` section holds a one line title of the phpt test. This should be a simple description and shouldn't ever excede one line. If you need to write more explanation, add comments in the body of the test case. The phpt file's name is used when generating a `.php` file. The `FILE` section is used as the body of the `.php` file, so don't forget to open and close your PHP tags. The `EXPECT` section is the part used as a comparison to see if the test passes. It is a good idea to generate output with `var_dump()` calls.
+As you can see, the file is divided into several sections. The `TEST` section holds a one line title of the phpt test. This should be a simple description and shouldn't ever exceed one line. If you need to write more explanation, add comments in the body of the test case. The phpt file's name is used when generating a `.php` file. The `FILE` section is used as the body of the `.php` file, so don't forget to open and close your PHP tags. The `EXPECT` section is the part used as a comparison to see if the test passes. It is a good idea to generate output with `var_dump()` calls.
 
 ### PHPT structure details
 
@@ -150,6 +150,8 @@ Another good check is to look at what lines of code in the PHP source your test 
 ### What should I do with my test case when I've written and tested it?
 
 The next step is to get someone to review it. If it's short you can paste it into a note and send it to <php-qa@lists.php.net>. If the test is a bit too long for that then put it somewhere were people can download it ([pastebin](http://www.pastebin.ca/) is sometimes used). Appending tests to notes as files doesn't work well—so please don't do that. Your note to <php-qa@lists.php.net> should say what level of PHP you have tested it on and what platform(s) you've run it on. Someone from the PHP QA group will review your test and reply to you. They may ask for some changes or suggest better ways to do things, or they may commit it to PHP.
+
+> For PHP TestFest, you should clone the [phpcommunity/phptestfest-php-src](https://github.com/phpcommunity/phptestfest-php-src) repository. Then submit a pull request with your tests. **Don't forget to include the name of your User Group or Event!**
 
 ### Writing Portable PHP Tests
 

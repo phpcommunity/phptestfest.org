@@ -6,16 +6,16 @@ email: testfest@phpcommunity.org
 
 social:
 
+  slack:
+    name: "#phptestfest on PHPC Slack"
+    icon: fa-slack
+    url: http://slack.phpcommunity.org/
+    channel: phptestfest
+
   google:
     name: Google Group
     icon: fa-comments-o
     url: https://groups.google.com/a/phpcommunity.org/group/testfest/
-
-  irc:
-    name: IRC
-    icon: fa-hashtag
-    url: https://kiwiirc.com/client/irc.freenode.net#phptestfest
-    channel: phptestfest
 
   github:
     name: GitHub

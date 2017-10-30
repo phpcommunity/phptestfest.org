@@ -1,0 +1,81 @@
+<div id="sidebar">
+    <div class="inner">
+
+        <nav id="menu">
+            <header class="major">
+                <h2>Menu</h2>
+            </header>
+            <ul>
+                <li>
+                    <span class="opener">Home | 🇬🇧 | 🇧🇷</span>
+                    <ul>
+                        <li><a href="/">🇬🇧 English</a></li>
+                        <li><a href="/pt-br/">🇧🇷 Português do Brasil</a></li>
+                    </ul>
+                </li>
+                <li><a href="/pt-br/start/">Comece aqui!</a></li>
+                <li><a href="/pt-br/lead/">Organize um evento</a></li>
+                <li><a href="/pt-br/mentors/">Seja um mentor</a></li>
+                <li><a href="/pt-br/tutorials/">Tutoriais</a></li>
+                <li><a href="/pt-br/groups/{{ site.time | date: '%Y' }}/">Grupos participantes</a></li>
+                <li><a href="/pt-br/resources/">Mais recursos</a></li>
+                <!--
+                <li>
+                    <span class="opener">Accordion Menu Example</span>
+                    <ul>
+                    {% for year in site.groups %}
+                        <li><a href="{{ year.url }}">{{ year.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                </li>
+                -->
+            </ul>
+        </nav>
+
+        <section>
+            <header class="major">
+                <h2>Junte-se a nós</h2>
+            </header>
+            <p>Nós adoraríamos que você se juntasse ao PHP TestFest. Para tirar dúvidas, mande-nos um email. Para se envolver, entre no nosso Google Group ou nos encontre no Slack do PHPC. Esperamos ver você em breve!</p>
+            <ul class="contact">
+                <li class="{{ site.data.contact.social.slack.icon }}"><a href="{{ site.data.contact.social.slack.url }}">{{ site.data.contact.social.slack.name }}</a></li>
+                <li class="{{ site.data.contact.social.google.icon }}"><a href="{{ site.data.contact.social.google.url }}">{{ site.data.contact.social.google.name }}</a></li>
+                <li class="fa-envelope-o"><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <header class="major">
+                <h2>Hashtag oficial</h2>
+            </header>
+            <p>Não importa onde você estiver falando sobre o PHP TestFest, seja no Twitter, Facebook, Instagram ou qualquer outro lugar: tente usar a hashtag oficial, assim outras pessoas conseguirão acompanhar:</p>
+            <p><code>#phptestfest</code></p>
+        </section>
+
+        <footer id="footer">
+            <p class="copyright-logo">
+                <a href="https://phpcommunity.org">
+                    <svg width="100%" height="100%" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+                        <g id="TestFest">
+                            <path d="M41.799,1.126c-0.541,0.341 -0.848,0.844 -0.838,1.382l0.137,7.145c0.019,1.013 0.914,1.913 2.169,2.158c4.419,0.865 8.411,3.156 11.332,6.619c0.875,1.038 2.395,1.518 3.656,1.146l9.443,-2.786c0.752,-0.221 1.259,-0.736 1.389,-1.4c0.128,-0.656 -0.126,-1.389 -0.686,-2.008c-3.292,-3.633 -7.253,-6.613 -11.482,-8.741c-4.126,-2.077 -8.639,-3.408 -13.154,-3.92c-0.713,-0.081 -1.429,0.066 -1.966,0.405Z" style="fill-rule:nonzero;"/>
+                            <path d="M69.797,20.014l-9.695,2.971c-1.295,0.397 -1.979,1.619 -1.64,2.984c0.093,0.372 0.198,0.812 0.274,1.245c0.825,4.67 -0.102,9.365 -2.872,13.473c-0.924,1.371 -0.751,3.43 0.462,4.985l10.45,13.388c0.957,1.225 2.24,2.014 3.501,2.141c1.264,0.127 2.354,-0.424 2.977,-1.494c6.046,-10.41 6.781,-22.116 3.271,-32.493c-0.564,-1.666 -1.269,-3.345 -2.087,-4.988c-0.401,-0.805 -1.145,-1.508 -2.037,-1.928c-0.883,-0.417 -1.832,-0.52 -2.604,-0.284Z" style="fill-rule:nonzero;"/>
+                            <path d="M47.97,47.433c-2.682,1.26 -5.684,1.936 -8.639,1.936c-2.955,0 -5.956,-0.676 -8.638,-1.936c-1.578,-0.74 -3.501,-0.134 -4.697,1.494l-10.368,14.137c-0.95,1.297 -1.485,2.967 -1.451,4.584c0.036,1.652 0.663,3.07 1.722,3.863c6.709,5.008 14.928,7.789 23.432,7.789c8.503,0 16.724,-2.781 23.432,-7.789c1.06,-0.793 1.686,-2.211 1.722,-3.863c0.035,-1.617 -0.5,-3.289 -1.451,-4.584l-10.368,-14.137c-1.195,-1.628 -3.118,-2.234 -4.696,-1.494Z" style="fill-rule:nonzero;"/>
+                            <path d="M25.65,30.443c0,-8.117 6.58,-14.697 14.696,-14.697c8.117,0 14.696,6.58 14.696,14.697c0,8.116 -6.579,14.695 -14.696,14.695c-8.116,0 -14.696,-6.579 -14.696,-14.695Z" style="fill-rule:nonzero;"/>
+                        </g>
+                    </svg>
+                </a>
+            </p>
+            <p class="copyright">
+                &copy; {{ site.time | date: '%Y' }} <a href="https://phpcommunity.org">PHP Community Foundation</a>.
+            </p>
+            <div class="license">
+                <p>Licensed under the Apache License, Version 2.0 (the &ldquo;License&rdquo;); you may not use the content or source code of this website except in compliance with the License. You may obtain a copy of the License at</p>
+                <p><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+                <p>Unless required by applicable law or agreed to in writing, content and source code distributed under the License is distributed on an &ldquo;AS IS&rdquo; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p>
+            </div>
+            <p class="attribution">&ldquo;Wooble&rdquo; is the property of <a href="https://www.sammyk.me">Sammy Kaye Powers</a> and is used with permission.</p>
+            <p class="attribution">Photos: <a href="https://unsplash.com/">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+        </footer>
+
+    </div>
+</div>

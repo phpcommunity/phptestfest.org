@@ -32,9 +32,7 @@
   twitter: https://twitter.com/ChiPHPUG
   contacts:
     - name: Sammy Kaye Powers
-      email: message through Meetup
     - name: Nick Escobedo
-      email: message through Meetup
 
 - name: ColumbusPHP
   location: Columbus, OH, USA
@@ -43,7 +41,6 @@
   twitter: https://twitter.com/ColumbusPHP
   contacts:
     - name: Bill Condo
-      email: message through Meetup
 
 - name: GrUSP
   location: Italy
@@ -83,6 +80,25 @@
     - name: Eric Poe
       email: eric.poe@gmail.com
 
+- name: Kharkiv PHP
+  location: Kharkiv, Ukraine
+  contacts:
+    - name: Yulia Kostrikova
+      email: yuliakostrikova@gmail.com
+    - name: Yuriy Melnik
+      email: ymln@ymln.name
+
+- name: Madison PHP
+  location: Madison, WI, USA
+  website: http://www.madisonphpconference.com
+  meetup: http://www.madisonphp.com
+  twitter: https://twitter.com/madisonphp
+  contacts:
+    - name: Beth Tucker Long
+      email: beth at treelinedesign dot com
+    - name: Clinton Otte-Ford
+      email: ford dot clinton at gmail dot com
+
 - name: MemphisPHP
   location: Memphis, TN, USA
   website: http://memphisphp.org
@@ -99,9 +115,17 @@
   twitter: https://twitter.com/mkepug
   contacts:
     - name: Joel Clermont
-      email: message through Meetup
     - name: Jeremy Dee
-      email: message through Meetup
+
+- name: Minnesota PHP UG
+  location: Bloomington, MN, USA
+  website: https://www.meetup.com/mn-php/
+  meetup: https://www.meetup.com/mn-php/
+  twitter: https://twitter.com/mnphp
+  contacts:
+    - name: Jonathan Sundquist
+    - name: Edward Barnard
+    - name: Mike Willbanks
 
 - name: Nashville PHP
   location: Nashville, TN, USA
@@ -126,6 +150,17 @@
     - name: Cal Evans
       email: cal@nomadphp.com
 
+- name: PHPdx
+  location: Portland, OR, USA
+  website: https://www.phpdx.org
+  meetup: https://www.meetup.com/PDX-PHP/
+  twitter: https://twitter.com/phpdx
+  contacts:
+    - name: Alena Holligan
+      email: alena@holligan.us
+    - name: Korvin Szanto
+      email: korvinszanto@gmail.com
+
 - name: PHP Leuven
   location: Leuven, Belgium
   website: https://www.meetup.com/PHP-Leuven-Web-Innovation-Group/
@@ -142,6 +177,13 @@
   contacts:
     - name: Gabriel Somoza
       email: gabriel@strategery.io
+
+- name: PHP Varna
+  location: Varna, Bulgaria
+  meetup: https://www.meetup.com/phpvarna/
+  twitter: https://twitter.com/phpvarna
+  contacts:
+    - name: Boyan Yordanov
 
 - name: PHP Vegas
   location: Las Vegas, NV USA
@@ -197,6 +239,24 @@
     - name: Shaun Hare
       email: shaun@phpminds.org
 
+- name: PHPNW
+  location: Manchester, UK
+  website: http://www.phpnw.org.uk/
+  twitter: https://twitter.com/phpnw
+  contacts:
+    - name: Jeremy Coates
+      email: jeremy@phpnw.org.uk
+    - name: Rick Ogden
+      email: rick@phpnw.org.uk
+
+- name: PHPNW17 Conference
+  location: Manchester, UK
+  website: http://conference.phpnw.org.uk/
+  twitter: https://twitter.com/phpnwConf
+  contacts:
+    - name: PHPNW Conference Team
+      email: conference@phpnw.org.uk
+
 - name: PHPRio
   location: Rio de Janeiro, Brazil
   website: http://php.rio/
@@ -244,6 +304,30 @@
   contacts:
     - name: Rogerio Prado de Jesus
       email: rogerio@phpsp.org.br
+    - name: Luiz Felipe de Oliva Limeira
+      email: lflimeira02@gmail.com
+
+- name: PHPUG Frankfurt
+  location: Frankfurt, Germany
+  website: http://www.phpugffm.de/
+  github: https://github.com/PHP-Usergroup-FFM
+  twitter: https://twitter.com/phpugffm
+  contacts:
+    - name: Christian Nielebock
+      email: christian@phpugffm.de
+    - name: Stephan Hochdörfer
+      email: stephan@phpugffm.de
+    - name: Andreas Heigl
+      email: andreas@phpugffm.de
+
+- name: PHPUG Münster
+  location: Münster, Germany
+  meetup: https://www.meetup.com/phpugms/
+  twitter: https://twitter.com/phpugms
+  contacts:
+    - name: Benjamin Cremer
+    - name: Timo Tewes
+    - name: Patrick Blom
 
 - name: PHPUG Rheinhessen
   location: Mainz, Germany
@@ -274,6 +358,17 @@
     - name: Massimiliano Arione
       email: garakkio@gmail.com
 
+- name: SDPHP
+  location: San Diego, CA, USA
+  website: http://www.sdphp.org
+  meetup: http://www.meetup.com/SanDiegoPHP
+  twitter: https://twitter.com/sdphp
+  contacts:
+    - name: John Congdon
+      email: john@sdphp.org
+    - name: Eric Van Johnson
+      email: eric@sdphp.org
+
 - name: Utah PHP
   location: Lehi, UT, USA
   website: http://uphpu.org
@@ -282,3 +377,4 @@
   contacts:
     - name: Mark Niebergall
       email: mbniebergall@gmail.com
+
