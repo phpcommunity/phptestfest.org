@@ -1,0 +1,43 @@
+---
+layout: page
+title: Tutoriais
+permalink: pt-br/tutorials/index.html
+summary: >
+    Desde aprender a configurar seu ambiente e escrever testes phpt, até planejar
+    um evento PHP TestFest, estes tutoriais podem lhe ajudar a fazer o melhor no PHP
+    TestFest
+lang: pt-br
+---
+
+<p>Desde aprender a configurar seu ambiente e escrever testes phpt, até planejar um evento PHP TestFest, estes tutoriais podem lhe ajudar a fazer o melhor no PHP TestFest</p>
+
+<hr class="major">
+
+{% assign pt-br_tutorials = site.pt-br_tutorials | sort: 'date' %}
+
+<section>
+    <div class="posts">
+        {% for tutorial in pt-br_tutorials reversed %}
+        <article>
+            {% if tutorial.image.url %}
+            <a href="{{ tutorial.url }}" class="image">
+                <img class="home" src="{{ tutorial.image.url }}" alt="{{ tutorial.image.alt }}">
+            </a>
+            {% else %}
+            <a href="{{ tutorial.url }}" class="image">
+                <img src="/theme-example/images/pic01.jpg" alt="">
+            </a>
+            {% endif %}
+            <h3>{{ tutorial.title | smartify }}</h3>
+            {% if tutorial.summary %}{{ tutorial.summary | markdownify }}{% else %}{{ tutorial.content | strip_html | truncatewords:25 | markdownify }}{% endif %}
+            <ul class="actions">
+                <li><a href="{{ tutorial.url }}" class="button">Mais</a></li>
+            </ul>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+
+<hr class="major">
+
+<p>Veja <a href="/tutorials/">todos os tutoriais</a> em inglês.</p>
