@@ -202,6 +202,14 @@
   contacts:
     - name: Jachim Coudenys
       email: jachim@php-wvl.be
+    - name: Hannes Van De Vreken
+      email: hannes@php.gent
+    - name: Tom Van Herreweghe
+      email: tom@php-wvl.be
+    - name: Jens Segers
+      email: jens@php.gent
+    - name: Ike Devolder
+      email: ike@php-wvl.be
 
 - name: PHPDublin
   location: Dublin, Ireland
