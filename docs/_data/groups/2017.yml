@@ -80,6 +80,19 @@
     - name: Eric Poe
       email: eric.poe@gmail.com
 
+- name: Madison PHP
+  location: Madison, WI, USA
+  website: http://www.madisonphpconference.com
+  meetup: http://www.madisonphp.com
+  twitter: https://twitter.com/madisonphp
+  contacts:
+    - name: Beth Tucker Long
+      email: beth at treelinedesign dot com
+    - name: Clinton Otte-Ford
+      email: ford dot clinton at gmail dot com
+
+
+
 - name: MemphisPHP
   location: Memphis, TN, USA
   website: http://memphisphp.org
