@@ -260,7 +260,7 @@
 - name: PHPRio
   location: Rio de Janeiro, Brazil
   website: http://php.rio/
-  meetup: https://www.meetup.com/pt-BR/PHP-Rio/
+  meetup: https://www.meetup.com/pt-BR/PHP-Rio/events/242117486
   twitter: https://twitter.com/phprio
   contacts:
     - name: Raphael Almeida
@@ -269,6 +269,8 @@
       email: igorsantos07@phprio.org
     - name: Vitor Mattos
       email: vitor.mattos@gmail.com
+    - name: Daiane Alves
+      email: dsalves@id.uff.br
 
 - name: PHPPR
   location: Paraná, Brazil
