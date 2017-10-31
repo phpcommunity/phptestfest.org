@@ -15,6 +15,10 @@ collections:
     output: true
     permalink: /:collection/:path/
     name: Tutorials
+  pt-br_groups:
+    output: true
+    permalink: /pt-br/groups/:path/
+    name: Grupos participantes
   pt-br_tutorials:
     output: true
     permalink: /pt-br/tutorials/:path/
