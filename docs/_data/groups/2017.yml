@@ -210,6 +210,17 @@
       email: jens@php.gent
     - name: Ike Devolder
       email: ike@php-wvl.be
+      
+- name: PHPDF
+  location: Distrito Federal, Brazil
+  website: http://www.phpdf.org.br/
+  meetup: https://www.meetup.com/php-df/
+  twitter: https://twitter.com/phpdf_
+  contacts:
+    - name: Leonn Leite
+      email: leonnleite@gmail.com
+    - name: Rogerio Prado de Jesus
+      email: rogeriopradoj@php.net
 
 - name: PHPDublin
   location: Dublin, Ireland
