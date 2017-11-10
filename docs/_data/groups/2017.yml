@@ -296,15 +296,6 @@
     - name: Fernando Moreira
       email: nandomoreira.me@gmail.com
       
-- name: PHPSE
-  location: Sergipe, Brazil
-  website: http://phpse.net/
-  meetup: https://www.meetup.com/pt-BR/php-se/
-  telegram: @phpse
-  contacts:
-    - name: Renê Soares
-      email: organizacao@phpse.net      
-
 - name: PHPRS
   location: Rio Grande do Sul, Brazil
   website: http://www.phprs.com.br/
@@ -317,6 +308,15 @@
       email: fernando@phprs.com.br
     - name: Grupo PHPRS
       email: contato@phprs.com.br
+      
+- name: PHPSE
+  location: Sergipe, Brazil
+  website: http://phpse.net/
+  meetup: https://www.meetup.com/pt-BR/php-se/
+  telegram: @phpse
+  contacts:
+    - name: Renê Soares
+      email: organizacao@phpse.net           
 
 - name: PHPSP
   location: São Paulo, Brazil
