@@ -371,6 +371,14 @@
     - name: PUG-MI Coordinators
       email: pugmilano@gmail.com
 
+- name: PUG MoRe
+  location: Modena/Reggio Emilia, Italy
+  website: http://more.grusp.org/
+  twitter: https://twitter.com/pug_more
+  contacts:
+    - name: Federico Panini
+      email: fpanini@gmail.com
+
 - name: PUG Roma
   location: Roma, Italy
   website: http://roma.grusp.org/
