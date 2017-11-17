@@ -24,6 +24,14 @@
   contacts:
     - name: Chris Spruck
       email: chris@atlantaphp.org
+      
+- name: Baltimore PHP
+  location: Baltimore, MD, USA
+  website: https://www.meetup.com/baltimorephp/
+  meetup: https://www.meetup.com/baltimorephp/
+  contacts:
+    - name: Colin O'Dell
+      email: colinodell@gmail.com
 
 - name: Chicago PHP UG
   location: Chicago, IL, USA
