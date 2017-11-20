@@ -59,3 +59,14 @@
   groups:
    - "[Magento Community Engineering Team](https://github.com/magento-engcom)"
    - "[Firegento](https://firegento.com)"
+
+- name: Rodrigo Prado de Jesus (royopa)
+  location: São Paulo, Brazil
+  twitter: https://twitter.com/royopa
+  email: royopa@php.net
+  available:
+    forLocal: true
+    forRemote: true
+    forTravel: true
+  groups:
+    - "[PHPSP](http://phpsp.org.br/)"

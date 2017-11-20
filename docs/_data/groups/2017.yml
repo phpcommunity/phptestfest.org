@@ -24,6 +24,14 @@
   contacts:
     - name: Chris Spruck
       email: chris@atlantaphp.org
+      
+- name: Baltimore PHP
+  location: Baltimore, MD, USA
+  website: https://www.meetup.com/baltimorephp/
+  meetup: https://www.meetup.com/baltimorephp/
+  contacts:
+    - name: Colin O'Dell
+      email: colinodell@gmail.com
 
 - name: Chicago PHP UG
   location: Chicago, IL, USA
@@ -210,6 +218,17 @@
       email: jens@php.gent
     - name: Ike Devolder
       email: ike@php-wvl.be
+      
+- name: PHPDF
+  location: Distrito Federal, Brazil
+  website: http://www.phpdf.org.br/
+  meetup: https://www.meetup.com/php-df/
+  twitter: https://twitter.com/phpdf_
+  contacts:
+    - name: Leonn Leite
+      email: leonnleite@gmail.com
+    - name: Rogerio Prado de Jesus
+      email: rogeriopradoj@php.net
 
 - name: PHPDublin
   location: Dublin, Ireland
@@ -297,6 +316,15 @@
       email: fernando@phprs.com.br
     - name: Grupo PHPRS
       email: contato@phprs.com.br
+      
+- name: PHPSE
+  location: Sergipe, Brazil
+  website: http://phpse.net/
+  meetup: https://www.meetup.com/pt-BR/php-se/
+  telegram: https://t.me/phpse
+  contacts:
+    - name: Renê Soares
+      email: organizacao@phpse.net           
 
 - name: PHPSP
   location: São Paulo, Brazil
@@ -350,6 +378,14 @@
   contacts:
     - name: PUG-MI Coordinators
       email: pugmilano@gmail.com
+
+- name: PUG MoRe
+  location: Modena/Reggio Emilia, Italy
+  website: http://more.grusp.org/
+  twitter: https://twitter.com/pug_more
+  contacts:
+    - name: Federico Panini
+      email: fpanini@gmail.com
 
 - name: PUG Roma
   location: Roma, Italy
