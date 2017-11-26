@@ -60,6 +60,10 @@
                     <header id="header">
                         <a href="/" class="logo"><strong>PHP TestFest</strong> Sep - Dec, 2017</a>
                         <ul class="icons">
+                        {% if page.url contains 'pt-br' %}{% for item in site.data.pt_br_contact.social %}
+                        {% assign link = item[1] %}
+                            <li><a href="{{ link.url }}" class="icon {{ link.icon }}"><span class="label">{{ link.name }}</span></a></li>
+                        {% endfor %}{% endif %}
                         {% for item in site.data.contact.social %}
                         {% assign link = item[1] %}
                             <li><a href="{{ link.url }}" class="icon {{ link.icon }}"><span class="label">{{ link.name }}</span></a></li>

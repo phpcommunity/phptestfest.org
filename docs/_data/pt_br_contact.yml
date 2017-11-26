@@ -1,0 +1,10 @@
+#
+# PHP TestFest Contact Information
+#
+
+social:
+
+  telegram:
+    name: "@PHPTestFestBrasil no Telegram"
+    icon: fa-telegram
+    url: https://t.me/PHPTestFestBrasil
