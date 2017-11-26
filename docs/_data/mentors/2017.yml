@@ -70,3 +70,16 @@
     forTravel: true
   groups:
     - "[PHPSP](http://phpsp.org.br/)"
+
+- name: Rogerio Prado de Jesus (@RogerioPradoJ)
+  location: Brasília-DF, Brazil
+  twitter: https://twitter.com/rogeriopradoj
+  email: rogeriopradoj@php.net
+  available:
+    forLocal: true
+    forRemote: true
+    forTravel: true
+  groups:
+    - "[PHPDF](http://phpsp.org.br/)"
+    - "[PHPSP](http://phpsp.org.br/)"
+    - "[PHPTestFestBrasil](https://github.com/PHPTestFestBrasil)"
