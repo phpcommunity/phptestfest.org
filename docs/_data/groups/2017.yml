@@ -396,6 +396,15 @@
     - name: Massimiliano Arione
       email: garakkio@gmail.com
 
+- name: PUG Torino
+  location: Turin, Italy
+  website: http://torino.grusp.org/
+  meetup: https://www.meetup.com/it-IT/pugTO-PHP-User-Group-Torino
+  twitter: https://twitter.com/PUGTorino
+  contacts:
+    - name: Enrico Zimuel
+      email: enrico@zimuel.it
+      
 - name: SDPHP
   location: San Diego, CA, USA
   website: http://www.sdphp.org
