@@ -24,12 +24,12 @@ Participation through [local user groups](/groups/2017) is encouraged but not re
 
 <div class="row">
     <div class="3u 6u(medium) 12u$(small)">
-        <h3><span class="icon fa-slack"></span>PHPC Slack</h3>
-        <p>For real-time chat, join us on <a href="http://slack.phpcommunity.org/">PHPC Slack</a> in <code>#phptestfest</code>. There&rsquo;s always someone there willing to help.</p>
+        <h3><span class="icon fa-slack"></span>phpc.chat</h3>
+        <p>For real-time chat, join us on <a href="https://phpc.chat/">phpc.chat</a> in <code>#phptestfest</code>. There&rsquo;s always someone there willing to help.</p>
     </div>
     <div class="3u 6u$(medium) 12u$(small)">
-        <h3><span class="icon fa-comments-o"></span>Google Group</h3>
-        <p>Sign up for the <a href="https://groups.google.com/a/phpcommunity.org/group/testfest/">Google Group</a>. Ask questions, help others, and lend your ideas to make PHP TestFest better.</p>
+        <h3><span class="icon fa-comments-o"></span>Forums</h3>
+        <p>Join the <a href="https://talk.phpcommunity.org/c/projects/phptestfest">forums</a>. Ask questions, help others, and lend your ideas to make PHP TestFest better.</p>
     </div>
     <div class="3u 6u(medium) 12u$(small)">
         <h3><span class="icon fa-twitter"></span>Twitter</h3>
@@ -41,11 +41,11 @@ Participation through [local user groups](/groups/2017) is encouraged but not re
     </div>
     <div class="6u 12u$(small)">
         <h3><span class="icon fa-users"></span>Add Your Group</h3>
-        <p>If you&rsquo;d like to declare your group&rsquo;s participation in PHP TestFest 2017, <a href="https://github.com/phpcommunity/phptestfest.org/edit/master/docs/_data/groups/2017.yml">add it to the list</a>. Then, be sure to join the <a href="https://groups.google.com/a/phpcommunity.org/group/testfest/">Google Group</a>, and <a href="/lead/">learn about leading an event</a>.</p>
+        <p>If you&rsquo;d like to declare your group&rsquo;s participation in PHP TestFest 2017, <a href="https://github.com/phpcommunity/phptestfest.org/edit/master/docs/_data/groups/2017.yml">add it to the list</a>. Then, be sure to join the <a href="https://talk.phpcommunity.org/c/projects/phptestfest">forums</a>, and <a href="/lead/">learn about leading an event</a>.</p>
     </div>
     <div class="6u$ 12u$(small)">
         <h3><span class="icon fa-graduation-cap"></span>Be A Mentor</h3>
-        <p>If you&rsquo;re interested in helping groups learn how to write and contribute tests, <a href="https://github.com/phpcommunity/phptestfest.org/edit/master/docs/_data/mentors/2017.yml">volunteer as a mentor</a>. Then, join the <a href="https://groups.google.com/a/phpcommunity.org/group/testfest/">Google Group</a> to find groups who need your help, and <a href="/mentors/">learn about mentoring</a>.</p>
+        <p>If you&rsquo;re interested in helping groups learn how to write and contribute tests, <a href="https://github.com/phpcommunity/phptestfest.org/edit/master/docs/_data/mentors/2017.yml">volunteer as a mentor</a>. Then, join the <a href="https://talk.phpcommunity.org/c/projects/phptestfest">forums</a> to find groups who need your help, and <a href="/mentors/">learn about mentoring</a>.</p>
     </div>
 </div>
 
@@ -72,7 +72,7 @@ When you are ready to start hacking, fork the official [PHP TestFest php-src rep
 
 When you submit a pull-request, your group will earn Internet Points if you add a line to the pull-request in the following format: "User Group: name-of-group". See [PR 13](https://github.com/phpcommunity/phptestfest-php-src/pull/13) as an example.
 
-We still have a lot of details to work out. We will need to develop a way to track contributions and work with the PHP core team to help review and accept tests, so that they don't become inundated with pull requests. If you'd like to help, please join the [Google Group](https://groups.google.com/a/phpcommunity.org/group/testfest/). We'll update this section as more details emerge.
+We still have a lot of details to work out. We will need to develop a way to track contributions and work with the PHP core team to help review and accept tests, so that they don't become inundated with pull requests. If you'd like to help, please join the [forums](https://talk.phpcommunity.org/c/projects/phptestfest). We'll update this section as more details emerge.
 
 ## Who's Behind This?
 
