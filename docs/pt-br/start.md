@@ -25,12 +25,12 @@ A participação por meio das [comunidades e grupos locais](/pt-br/groups/2017) 
 
 <div class="row">
     <div class="3u 6u(medium) 12u$(small)">
-        <h3><span class="icon fa-slack"></span>Slack do PHPC</h3>
-        <p>Para chat em tempo real, junte-se a nós no Slack do PHPC em <a href="https://phpcommunity.slack.com/messages/phptestfest">#phptestfest</a>. Não se esqueça de <a href="http://slack.phpcommunity.org">de pedir seu convite para o Slack do PHPC</a>!</p>
+        <h3><span class="icon fa-slack"></span>Chat do PHPC</h3>
+        <p>Para chat em tempo real, junte-se a nós no chat do PHPC em <a href="https://phpc.chat/channel/phptestfest">#phptestfest</a>. Não se esqueça de <a href="https://phpc.chat/">de pedir seu convite para o chat do PHPC</a>!</p>
     </div>
     <div class="3u 6u$(medium) 12u$(small)">
-        <h3><span class="icon fa-comments-o"></span>Google Group</h3>
-        <p>Inscreva-se no <a href="https://groups.google.com/a/phpcommunity.org/group/testfest/">grupo do Google</a>. Tire dúvidas, ajude, e compartilhe suas ideias para tornar o PHP TestFest melhor.</p>
+        <h3><span class="icon fa-comments-o"></span>Fórum de Discussão</h3>
+        <p>Inscreva-se no <a href="https://talk.phpcommunity.org/c/projects/phptestfest">fórum de discussão</a>. Tire dúvidas, ajude, e compartilhe suas ideias para tornar o PHP TestFest melhor.</p>
     </div>
     <div class="3u 6u(medium) 12u$(small)">
         <h3><span class="icon fa-twitter"></span>Twitter</h3>
@@ -42,11 +42,11 @@ A participação por meio das [comunidades e grupos locais](/pt-br/groups/2017) 
     </div>
     <div class="6u 12u$(small)">
         <h3><span class="icon fa-users"></span>Inclua Seu Grupo</h3>
-        <p>Se você quiser incluir seu grupo no PHP TestFest 2017, <a href="https://github.com/phpcommunity/phptestfest.org/edit/master/docs/_data/groups/2017.yml">adicione-o à lista</a>. Depois entre para o <a href="https://groups.google.com/a/phpcommunity.org/group/testfest/">Google Group</a> e <a href="/pt-br/lead/">saiba como organizar o evento</a>.</p>
+        <p>Se você quiser incluir seu grupo no PHP TestFest 2017, <a href="https://github.com/phpcommunity/phptestfest.org/edit/master/docs/_data/groups/2017.yml">adicione-o à lista</a>. Depois entre para o <a href="https://talk.phpcommunity.org/c/projects/phptestfest">fórum de discussão</a> e <a href="/pt-br/lead/">saiba como organizar o evento</a>.</p>
     </div>
     <div class="6u$ 12u$(small)">
         <h3><span class="icon fa-graduation-cap"></span>Seja um mentor</h3>
-        <p>Se você estiver interessado em ajudar os grupos no aprendizado sobre como escrever e contribuir com testes, <a href="https://github.com/phpcommunity/phptestfest.org/edit/master/docs/_data/mentors/2017.yml">seja voluntário para ser um mentor</a>. Depois entre para <a href="https://groups.google.com/a/phpcommunity.org/group/testfest/">Google Group</a> para encontrar os grupos que precisam de sua ajuda e <a href="/mentors/">aprenda sobre mentoria</a>.</p>
+        <p>Se você estiver interessado em ajudar os grupos no aprendizado sobre como escrever e contribuir com testes, <a href="https://github.com/phpcommunity/phptestfest.org/edit/master/docs/_data/mentors/2017.yml">seja voluntário para ser um mentor</a>. Depois entre para <a href="https://talk.phpcommunity.org/c/projects/phptestfest">fórum de discussão</a> para encontrar os grupos que precisam de sua ajuda e <a href="/mentors/">aprenda sobre mentoria</a>.</p>
     </div>
 </div>
 
@@ -67,13 +67,13 @@ Os ganhadores dos prêmios e sorteios serão anunciados em janeiro de 2018. Para
 
 ## Como funciona?
 
-Se você e sua comunidade ou grupo local estão interessados em participar, entre para o [Google Group](https://groups.google.com/a/phpcommunity.org/group/testfest/), [adicione seu grupo à lista](/pt-br/groups/2017/), e se prontifiquem a sediar um ou mais eventos PHP TestFest de setembro a dezembro. Um bom PHP TestFest deve incluir uma reunião inicial com todas as informações sobre o evento, uma sessão mostrando como contribuir e escrever testes com _phpt_, e uma mini maratona hacker (hackathon) para escrever os testes. Leia mais sobre [como organizar um PHP TestFest](/pt-br/lead).
+Se você e sua comunidade ou grupo local estão interessados em participar, entre para o [fórum de discussão](https://talk.phpcommunity.org/c/projects/phptestfest), [adicione seu grupo à lista](/pt-br/groups/2017/), e se prontifiquem a sediar um ou mais eventos PHP TestFest de setembro a dezembro. Um bom PHP TestFest deve incluir uma reunião inicial com todas as informações sobre o evento, uma sessão mostrando como contribuir e escrever testes com _phpt_, e uma mini maratona hacker (hackathon) para escrever os testes. Leia mais sobre [como organizar um PHP TestFest](/pt-br/lead).
 
 Quando estiver pronto para iniciar os trabalhos, faça o fork do [repositório php-src oficial do PHP TestFest](https://github.com/phpcommunity/phptestfest-php-src) (**importante**: não é o `php/php-src`). Voluntários do time do núcleo do PHP ajudarão a revisar e aceitar os pull-requests neste repositório. Além do mais, apenas os pull-requests enviados para o `phpcommunity/phptestfest-php-src` serão contabilizados para participar do PHP TestFest 2017.
 
 Quando você enviar um pull-request, seu grupo ganhará Internet Points caso você adicionar uma linha ao pull-request no seguinte formato: "User Group: nome-do-grupo". Veja o [PR 13](https://github.com/phpcommunity/phptestfest-php-src/pull/13) para ter um exemplo.
 
-Ainda temos muito em que trabalhar. Precisamos desenvolver uma maneira de acompanhar as contribuições e trabalhar com o time do núcleo do PHP, ajudando na revisão e aceite dos testes, para que eles não sejam sobrecarregados com muitos _pull requests_. Se você gostaria de ajudar, entre no [Google Group](https://groups.google.com/a/phpcommunity.org/group/testfest/). Vamos atualizar este texto sempre que novas informações surgirem.
+Ainda temos muito em que trabalhar. Precisamos desenvolver uma maneira de acompanhar as contribuições e trabalhar com o time do núcleo do PHP, ajudando na revisão e aceite dos testes, para que eles não sejam sobrecarregados com muitos _pull requests_. Se você gostaria de ajudar, entre no [fórum de discussão](https://talk.phpcommunity.org/c/projects/phptestfest). Vamos atualizar este texto sempre que novas informações surgirem.
 
 ## Quem está por trás disso?
 
