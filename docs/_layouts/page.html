@@ -2,7 +2,9 @@
 layout: base
 ---
 
+{% if page.collection %}
 {% assign collection = site.collections | where: "label", page.collection | first %}
+{% endif %}
 
 <section>
     <header class="main">
