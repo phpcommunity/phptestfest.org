@@ -24,12 +24,12 @@ Participation through [local user groups](/groups/2017) is encouraged but not re
 
 <div class="row">
     <div class="3u 6u(medium) 12u$(small)">
-        <h3><span class="icon fa-slack"></span>phpc.chat</h3>
-        <p>For real-time chat, join us on <a href="https://phpc.chat/">phpc.chat</a> in <code>#phptestfest</code>. There&rsquo;s always someone there willing to help.</p>
+        <h3><span class="icon fa-slack"></span>Chat</h3>
+        <p>For real-time chat, join us on <a href="https://chat.phptestfest.org">Discord, Matrix, or IRC</a>. There&rsquo;s always someone there willing to help.</p>
     </div>
     <div class="3u 6u$(medium) 12u$(small)">
         <h3><span class="icon fa-comments-o"></span>Forums</h3>
-        <p>Join the <a href="https://talk.phpcommunity.org/c/projects/phptestfest">forums</a>. Ask questions, help others, and lend your ideas to make PHP TestFest better.</p>
+        <p>Join the <a href="https://talk.phpcommunity.org/c/programs/phptestfest/17">forums</a>. Ask questions, help others, and lend your ideas to make PHP TestFest better.</p>
     </div>
     <div class="3u 6u(medium) 12u$(small)">
         <h3><span class="icon fa-twitter"></span>Twitter</h3>
