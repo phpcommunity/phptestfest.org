@@ -7,15 +7,15 @@ email: testfest@phpcommunity.org
 social:
 
   slack:
-    name: "#phptestfest on phpc.chat"
+    name: Chat
     icon: fa-slack
-    url: https://phpc.chat/channel/phptestfest
+    url: https://chat.phptestfest.org
     channel: phptestfest
 
   google:
     name: Forums
     icon: fa-comments-o
-    url: https://talk.phpcommunity.org/c/projects/phptestfest
+    url: https://talk.phpcommunity.org/c/programs/phptestfest/17
 
   github:
     name: GitHub
